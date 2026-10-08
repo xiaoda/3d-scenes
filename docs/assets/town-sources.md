@@ -73,4 +73,4 @@
 - 13 个运行文件合计 4,156,106 bytes（约 3.96 MiB），见 [`street/manifest.json`](../../public/assets/town/street/manifest.json)。下载/重建入口：[`street-house.json`](../../asset-sources/street-house.json)、`prepare-street-house.py`、`convert-street-house.py`、`register-street-house.mjs`。
 - 街角复用原酒馆立面、石路、HDR 和酒桶。场景中木梁、屋瓦及部分砖材色调只在独立加载实例上调整一次，不改旧资产字节；院墙、路缘、木箱为本项目辅助几何，使用上述授权素材材质。
 
-P2 首版待评审；[本轮检查记录](../reviews/2026-10-08-town-street-qa.md) 区分配楼导入、场景效果、行走边界与短时性能数据。
+P2 首版 `2869e21` 已于 2026-10-08 获用户效果认可；[本轮检查记录](../reviews/2026-10-08-town-street-qa.md) 区分配楼导入、场景效果、行走边界与短时性能数据。资产台账中的 `accepted:false` 保留为制作时快照，最新阶段认可状态以检查记录末尾为准，不改动已认可模型和贴图。
