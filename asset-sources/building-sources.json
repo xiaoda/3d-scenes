@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-08",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "assets": [
+    {
+      "id": "daniel-tavern",
+      "name": "Medieval Tavern",
+      "author": "Daniel Andersson (Daniel74); OpenGameArt 上传者 hreikin",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/medieval-tavern",
+      "archive": {
+        "url": "https://opengameart.org/sites/default/files/75282_ThePaintedWench_02Upload_blend.zip",
+        "bytes": 4107141,
+        "sha256": "6a0729898de0a4f1f3f79635931a1c50b862a49e020f25634dd51a337cb214df",
+        "licenseEvidence": "来源页面 CC0；包内 75282 - Medieval Tavern - License.html 同样标记 Daniel74 / Creative Commons Zero。"
+      },
+      "model": "buildings/daniel-tavern/model.gltf",
+      "textureLabel": "480–1128px 原图",
+      "conversion": "Blender 4.5.14；原几何、UV 与包内颜色图；旧 Blender Internal 材质迁移为固定粗糙度 0.88（铁件 0.75）、金属度 0。不含真实法线/粗糙度图；非完整 PBR。",
+      "review": {"status": "candidate", "limitations": ["石墙颜色图仅 480×480；近景密度待验证", "门窗部分为零厚度贴片；不适合直接当作可入内建筑", "尚未通过主建筑视觉验收"]}
+    },
+    {
+      "id": "spiral-shack",
+      "name": "Old Medieval House",
+      "author": "Spiral / Spiral Softworks",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/old-medieval-house",
+      "archive": {
+        "url": "https://opengameart.org/sites/default/files/Old_Medieval_Shack_House_.7z",
+        "bytes": 28661839,
+        "sha256": "11f42fbb18e9a7b4bbc334df50c3cf33572c9acb6c525345457ffa00d9ce3aaf",
+        "licenseEvidence": "作者来源页 CC0，说明允许个人/商业使用，署名非强制；本项目保留署名。"
+      },
+      "model": "buildings/spiral-shack/model.gltf",
+      "textureLabel": "2K 原图 / Alpha",
+      "conversion": "Blender 4.5.14；FBX 轴系转换为 glTF Y-up，保留原始尺度、UV 和两张 2K 图；粗糙度固定 0.88，茅草 Alpha 使用 MASK 0.5，非完整 PBR。",
+      "review": {"status": "candidate", "limitations": ["原作者定位俯视 RPG；近景门窗/木梁厚度待验证", "乡村茅草小屋，不等同街角酒馆，只作辅助建筑候选", "没有原生法线/粗糙度贴图"]}
+    }
+  ]
+}

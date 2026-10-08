@@ -19,8 +19,9 @@ function select(key:AssetKey){
   $('#asset-title').textContent=entry.title;$('#asset-tag').textContent=entry.tag;$('#asset-note').textContent=entry.note;
   $('#dimensions').textContent=[report.size.width,report.size.height,report.size.depth].map(x=>x.toFixed(2)).join(' × ')+' m';
   $('#triangles').textContent=Math.round(report.triangles).toLocaleString()+' / '+report.meshes+' 网格';
-  $('#asset-size').textContent='2K / '+(record.files.reduce((n,f)=>n+f.bytes,0)/1048576).toFixed(1)+' MiB';
+  $('#asset-size').textContent=(record.textureLabel??'2K')+' / '+(record.files.reduce((n,f)=>n+f.bytes,0)/1048576).toFixed(1)+' MiB';
   $('#source-link').setAttribute('href',record.source);
+  $('#source-link').textContent='来源：'+(new URL(record.source).hostname==='opengameart.org'?'OpenGameArt':'Poly Haven')+' ↗';
   $('#credit').textContent=record.author+' · CC0';
   $('#detail-button').textContent=key==='floor'?'低角度近看':'约 1 米近看';
   syncGroundControl();
@@ -39,12 +40,20 @@ async function init(){
  enableControls(false);
  try{
   const r=await fetch(base+'manifest.json');if(!r.ok)throw Error('资产台账加载失败 '+r.status);manifest=await r.json();
+  let buildingWarning='';
+  try{
+   const response=await fetch(base+'buildings/manifest.json');if(!response.ok)throw Error('HTTP '+response.status);
+   const buildings:Manifest=await response.json();
+   if(!Array.isArray(buildings.assets))throw Error('清单格式错误');
+   manifest.assets.push(...buildings.assets);
+  }catch(e){buildingWarning='建筑清单加载失败（原有样本仍可检查）：'+String(e);}
   lab=new AssetLab(viewport);await lab.load(manifest,label=>{state.textContent=label;});
+  if(buildingWarning)lab.errors.push(buildingWarning);
   if(fatalError)return;
-  const first=lab.reports.has('barrel')?'barrel':lab.reports.keys().next().value;
+  const first=lab.reports.has('tavern')?'tavern':lab.reports.has('barrel')?'barrel':lab.reports.keys().next().value;
   if(!first)throw Error('没有可检查的模型；请查看本地资源是否完整。');
   ready=true;loading.hidden=true;enableControls(true);
-  if(lab.errors.length){state.textContent='部分资产失败';error.hidden=false;error.textContent=lab.errors.join('；');}else state.textContent='3 项样本已载入';
+  if(lab.errors.length){state.textContent='部分资产失败';error.hidden=false;error.textContent=lab.errors.join('；');}else state.textContent=lab.reports.size+' 项样本已载入';
   for(const b of document.querySelectorAll<HTMLButtonElement>('[data-asset]'))b.disabled=!lab.reports.has(b.dataset.asset as AssetKey);
   select(first);
   (window as unknown as {__assetLab:unknown}).__assetLab={inspect:()=>lab.inspect(),select:(key:AssetKey)=>select(key),view:(v:View)=>view(v)};

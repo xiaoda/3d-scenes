@@ -4,10 +4,10 @@
 
 ## 当前内容
 
-- 本地酒桶、拱形木门、铺石地面及 HDR 环境光。
+- 本地石砌酒馆、茅草小屋、酒桶、拱形木门、铺石地面及 HDR 环境光。
 - 模型旋转、缩放、正反面和近景机位、光照切换、线框检查。
 - P0 视觉参考板、资产来源与许可记录、自动测试及浏览器验证记录。
-- 主建筑尚待获取；下一阶段为小范围街角品质样片，不复刻特定历史地点。
+- 已自主取得两栋 CC0 建筑并转换为 glTF；酒馆近景质量未通过，小屋仅作辅助候选。下一步是材质/门窗改造评估，然后制作街角样片，不复刻特定地点。
 
 ## 本地运行
 
@@ -18,7 +18,7 @@ npm ci
 npm run dev
 ```
 
-开发服务仅监听 `127.0.0.1`，实际地址以启动输出为准。首页是检查台，`/p0/` 是参考板，`/p1-notes.html` 是筛选与检查说明。
+开发服务仅监听 `127.0.0.1`，实际地址以启动输出为准。首页是检查台，`/p0/` 是参考板，`/building-notes.html` 是本轮建筑结论，`/p1-notes.html` 保留上一轮历史记录。
 
 ```sh
 # 资产与逻辑测试
@@ -34,7 +34,21 @@ npm run build
 npm run preview
 ```
 
-2026-10-08：合计 19 项自动检查通过，桌面和窄屏各 21 项浏览器断言通过。测试结果不等于最终画质或连续行走性能验收。
+2026-10-08 本轮：合计 23 项自动检查通过，桌面和窄屏各 48 项浏览器断言通过，另覆盖 5 种加载/失败场景。测试结果不等于最终画质或连续行走性能验收。
+
+## 建筑离线转换（仅重新制作资产时需要）
+
+运行网站不需要 Python 或 Blender；glTF 产物已随仓库提供。重新转换需要 Python 3、`py7zr` 和官方 Blender 4.5.14 LTS：
+
+```sh
+python scripts/prepare-building-sources.py
+# 将下列 blender 替换为本机已验证的 Blender 可执行文件路径；Windows 后台运行须显式隐藏窗口。
+blender --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/convert-buildings.py -- .preview/building-sources
+node scripts/register-buildings.mjs
+node --test tests/buildings.test.mjs
+```
+
+下载脚本固定原包 SHA-256、拒绝重定向及越界路径，仅提取模型/纹理，不执行源包脚本或 Unity 内容。转换保留原几何/UV/颜色图，旧材质固定粗糙度只是近似迁移，不是凭空获得真实 PBR。脚本不会自动安装 Blender、Python 包或购买素材。原件、工具和转换日志留在 `.preview/`，不提交。
 
 ## 项目结构
 
@@ -55,6 +69,8 @@ npm run preview
 - [开发路线图](docs/plans/2026-10-07-medieval-town-plan.md)
 - [P1 资产来源与运行时处理](docs/assets/town-sources.md)
 - [P1 检查记录](docs/reviews/2026-10-08-town-p1-qa.md)
+- [建筑实物检查记录](docs/reviews/2026-10-08-town-building-qa.md)
+- [本轮实施计划](docs/plans/2026-10-08-town-p2-assets.md)
 - [P0 参考图片来源与许可](docs/p0-town/sources.md)
 
 第三方模型、贴图、HDR 和参考照片分别遵循其来源台账中的许可，保留原作者与许可链接；不要将素材许可理解为整个代码仓库的统一许可。

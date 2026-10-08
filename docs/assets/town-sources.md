@@ -1,10 +1,10 @@
 # 小镇 P1：运行资产来源台账
 
-更新：2026-10-08。当前仅包含已经存在于本机、通过哈希检查并在浏览器实际渲染的资产；主建筑尚未取得，`p1Accepted` 保持 `false`。
+更新：2026-10-08（第一轮历史记录；后续建筑获取见文末新增章节）。本节仅包含已经存在于本机、通过哈希检查并在浏览器实际渲染的资产；主建筑尚未取得，`p1Accepted` 保持 `false`。
 
 ## 来源与文件
 
-全部运行资产来自 Poly Haven，台账标记为 CC0-1.0。2026-10-08 复核其官方许可页，资产采用 CC0；站点宣传图、标志和网页文案不自动包含在资产许可内。[官方许可说明](https://polyhaven.com/license)
+本节四项运行资产来自 Poly Haven，台账标记为 CC0-1.0。2026-10-08 复核其官方许可页，资产采用 CC0；站点宣传图、标志和网页文案不自动包含在资产许可内。[官方许可说明](https://polyhaven.com/license)
 
 | 资产 | 作者 | 本地文件 | 合计字节 | 本轮结论 |
 |---|---|---:|---:|---|
@@ -29,3 +29,22 @@
 当前 `asset-sources/inbox/` 只有说明文件，没有可导入建筑包。此前优先候选是 Pedro de Santi 的 [Medieval Building with interior](https://sketchfab.com/3d-models/medieval-building-with-interior-2d995df46dd4420093925736f411077b)。该链接仅为来源线索，不代表文件已取得或质量已通过；取得完整原包后，仍需核对随包许可、贴图、完整四面与近景表现。
 
 按用户本轮选择，不继续获取建筑、不绕过登录、不从网页缓存提取受限资源，也不以程序建筑代替。其他候选的历史筛选情况见 [筛选说明](../../public/p1-notes.html)，其条款与下载状态在正式采用前须重新核验。
+
+## 2026-10-08 后续开发：自主获取两栋建筑
+
+用户随后授权继续推进，并明确素材主要由助手获取，风格不限于特定真实小镇。上述“暂不获取”仅为上一轮历史状态，现已更新。
+
+| 建筑 | 作者与许可 | 实物数据 | 当前结论 |
+|---|---|---|---|
+| [Medieval Tavern](https://opengameart.org/content/medieval-tavern) | Daniel Andersson / Daniel74，hreikin 上传；CC0，随包说明一致 | 17.80 × 8.32 × 13.91m；8,017 三角面；55 网格；约 2.7 MiB | 结构与改造评估样本，不能原样成为近景主角：480px 石墙、蓝色窗面、贴片门窗 |
+| [Old Medieval House](https://opengameart.org/content/old-medieval-house) | Spiral / Spiral Softworks；来源页 CC0 | 6.95 × 4.50 × 4.87m；1,206 三角面；2 网格；约 10.7 MiB | 只保留为乡村附属建筑候选，不替代街角酒馆 |
+
+- 原包下载地址、字节数、SHA-256、许可证据：[`building-sources.json`](../../asset-sources/building-sources.json)。两包来自来源页直接公开下载链接，没有登录绕过或缓存提取。
+- 转换产物、逐文件哈希及限制：[`buildings/manifest.json`](../../public/assets/town/buildings/manifest.json)。两个清单独立，原 Poly Haven 获取脚本不会删除建筑。
+- 使用官方 Blender 4.5.14 LTS Windows 便携版；官方 SHA256 校验 `b9533d2397ac1984db4466fb23a7a4649391cca93f6e84209f9bcc60d071c8b9`。禁用自动脚本，运行本仓库自编转换脚本。
+- 酒馆重建旧 Blender Internal 颜色图连接，保留几何和 UV；固定粗糙度 0.88、铁件 0.75、金属度 0，是保守近似，不是原生 PBR。
+- 小屋保留 FBX 原尺度和两张 2K PNG，轴系转换为 glTF Y-up；屋檐 Alpha 使用 MASK 0.5，没有执行 Unity 包。
+- 建筑检查地面分别扩大到 22m、12m，保持 2m 材质平铺。原酒桶、木门、地面仍使用 6m 检查平面。
+- `p1Accepted` 仍为 `false`，主建筑状态为 `candidate-review`。网站可运行、模型可加载与视觉基线是不同关口。
+
+当前结果和后续质量关见 [建筑检查记录](../reviews/2026-10-08-town-building-qa.md)。

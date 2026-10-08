@@ -33,8 +33,11 @@ test('glTF 外部引用全部本地存在，不执行来源文件里的代码',a
   }
  }
 });
-test('主建筑未获取时不能被标为已验证通过',async()=>{
+test('建筑候选已获取但未验收时，不能把 P1 标为通过',async()=>{
  const manifest=JSON.parse(await fs.readFile(manifestPath,'utf8'));
- assert.equal(manifest.building.status,'awaiting-source');
+ assert.equal(manifest.building.status,'candidate-review');
+ const buildings=JSON.parse(await fs.readFile(path.join(root,'public/assets/town/buildings/manifest.json'),'utf8'));
+ assert.ok(buildings.assets.every(a=>a.review.status==='candidate'));
+ assert.equal(buildings.p1Accepted,false);
  assert.equal(manifest.p1Accepted,false);
 });

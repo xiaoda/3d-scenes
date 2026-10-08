@@ -1,0 +1,18 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "sourceBoundsZUp": {
+    "min": [
+      -6.102948188781738,
+      -2.7348175048828125,
+      -1.2743688821792603
+    ],
+    "max": [
+      11.693886756896973,
+      11.170454978942871,
+      7.045076370239258
+    ]
+  },
+  "sourceMeshCount": 53,
+  "units": "source units interpreted as metres; no automatic rescale",
+  "conversion": "Original geometry/UV/albedo; explicit roughness approximation, not native PBR."
+}

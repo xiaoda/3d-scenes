@@ -29,6 +29,8 @@ async function worker(){
  }
 }
 await Promise.all([worker(),worker(),worker()]);
-const manifest={version:1,p1Accepted:false,building:{status:'awaiting-source',note:'未导入合格主建筑；禁止以程序占位模型替代。'},assets:spec.assets.map(a=>({...a,files:records.filter(f=>f.asset===a.id)}))};
+const buildings=await fs.readFile(path.join(base,'buildings/manifest.json'),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
+const building=buildings?.assets?.length?{status:'candidate-review',note:'已导入两栋候选，独立台账见 buildings/manifest.json；主建筑近景未通过，不以程序占位模型替代。'}:{status:'awaiting-source',note:'未导入合格主建筑；禁止以程序占位模型替代。'};
+const manifest={version:1,p1Accepted:false,building,assets:spec.assets.map(a=>({...a,files:records.filter(f=>f.asset===a.id)}))};
 await fs.writeFile(path.join(base,'manifest.json'),JSON.stringify(manifest,null,2));
 console.log('完成',records.length,'个文件');

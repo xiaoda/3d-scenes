@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "p1Accepted": false,
+  "reviewedAt": "2026-10-08",
+  "assets": [
+    {
+      "id": "daniel-tavern",
+      "name": "Medieval Tavern",
+      "author": "Daniel Andersson (Daniel74); OpenGameArt 上传者 hreikin",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/medieval-tavern",
+      "archive": {
+        "url": "https://opengameart.org/sites/default/files/75282_ThePaintedWench_02Upload_blend.zip",
+        "bytes": 4107141,
+        "sha256": "6a0729898de0a4f1f3f79635931a1c50b862a49e020f25634dd51a337cb214df",
+        "licenseEvidence": "来源页面 CC0；包内 75282 - Medieval Tavern - License.html 同样标记 Daniel74 / Creative Commons Zero。"
+      },
+      "model": "buildings/daniel-tavern/model.gltf",
+      "textureLabel": "480–1128px 原图",
+      "conversion": "Blender 4.5.14；原几何、UV 与包内颜色图；旧 Blender Internal 材质迁移为固定粗糙度 0.88（铁件 0.75）、金属度 0。不含真实法线/粗糙度图；非完整 PBR。",
+      "review": {
+        "status": "candidate",
+        "limitations": [
+          "石墙颜色图仅 480×480；近景密度待验证",
+          "门窗部分为零厚度贴片；不适合直接当作可入内建筑",
+          "尚未通过主建筑视觉验收"
+        ]
+      },
+      "files": [
+        {
+          "path": "buildings/daniel-tavern/conversion.json",
+          "bytes": 452,
+          "sha256": "c964e2ee0860da11caf8bcd2497697126095c16a3cd6c3440038f57c8a658a3b"
+        },
+        {
+          "path": "buildings/daniel-tavern/model.bin",
+          "bytes": 431740,
+          "sha256": "23e219157d9d090e15792ee9584d3247cc9136ab0983db194f1c78dfb184acd8"
+        },
+        {
+          "path": "buildings/daniel-tavern/model.gltf",
+          "bytes": 67351,
+          "sha256": "c946faae6a298ee37b895c61b93ef6a0bc960705b29e47e486d90c5060aba227"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/DarkStone.jpg",
+          "bytes": 127629,
+          "sha256": "db440a148293e1121b775da4b8d54ab6abe2c0829b5799b6ee64583c481d2b3b"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/DoorType1_2.jpg",
+          "bytes": 248592,
+          "sha256": "cf831de534b37567c19638a2f8bf099c6ed3d2edc90e4f9c20aafcdde6beaa0d"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/GreyBricks.jpg",
+          "bytes": 140115,
+          "sha256": "8e42ba4ce7c1e3e1538f90f78fd76f760ffc58220e67e2bf2e456402f9459325"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/RoofTiles.jpg",
+          "bytes": 194812,
+          "sha256": "df73a93cc468528c36c4e0c39b706575e5aab6077dc5d829e5948284c3c67fc8"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/Rusted Metal.jpg",
+          "bytes": 298722,
+          "sha256": "63a6a0bd18f8bd8c01ba18efe83a15baf18ce75cabf9f441b85cad11054118ac"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/StoneWall1.jpg",
+          "bytes": 123893,
+          "sha256": "71580f94c92ca0ea05cffaa71fa852fcb24feab1ae2d556d8f2e93b807437ce4"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/ThePaintedWenchSign.jpg",
+          "bytes": 116942,
+          "sha256": "458b3f82b5296fcd0110e4605bf6ec7800707d752f95d403d3dadbf542e6eeb8"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/TreeLogEdgeWeathered.jpg",
+          "bytes": 260268,
+          "sha256": "b68f0516d81a570e927675398c9bcb04490509d8dff8fc725581b0d028689480"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/WindowBlue1.jpg",
+          "bytes": 272852,
+          "sha256": "4ce8a2ac546132d29c83f49bd34424940b49c5eb54ad2f6ad457714dc61f8ef7"
+        },
+        {
+          "path": "buildings/daniel-tavern/textures/Wood.jpg",
+          "bytes": 512848,
+          "sha256": "8def4262d4a9e6b46aa784261adfe08539b7d62a6349449d50b008f85f42c842"
+        }
+      ]
+    },
+    {
+      "id": "spiral-shack",
+      "name": "Old Medieval House",
+      "author": "Spiral / Spiral Softworks",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/old-medieval-house",
+      "archive": {
+        "url": "https://opengameart.org/sites/default/files/Old_Medieval_Shack_House_.7z",
+        "bytes": 28661839,
+        "sha256": "11f42fbb18e9a7b4bbc334df50c3cf33572c9acb6c525345457ffa00d9ce3aaf",
+        "licenseEvidence": "作者来源页 CC0，说明允许个人/商业使用，署名非强制；本项目保留署名。"
+      },
+      "model": "buildings/spiral-shack/model.gltf",
+      "textureLabel": "2K 原图 / Alpha",
+      "conversion": "Blender 4.5.14；FBX 轴系转换为 glTF Y-up，保留原始尺度、UV 和两张 2K 图；粗糙度固定 0.88，茅草 Alpha 使用 MASK 0.5，非完整 PBR。",
+      "review": {
+        "status": "candidate",
+        "limitations": [
+          "原作者定位俯视 RPG；近景门窗/木梁厚度待验证",
+          "乡村茅草小屋，不等同街角酒馆，只作辅助建筑候选",
+          "没有原生法线/粗糙度贴图"
+        ]
+      },
+      "files": [
+        {
+          "path": "buildings/spiral-shack/conversion.json",
+          "bytes": 452,
+          "sha256": "eab34fc8c0089ae4afda90c58403635a83ad400af8d152db3395b06f0bbba14d"
+        },
+        {
+          "path": "buildings/spiral-shack/model.bin",
+          "bytes": 54948,
+          "sha256": "2bc5dd9b70cfb1f5fa22565eb630627438058a8feaffdb82c9b433ca83917f1d"
+        },
+        {
+          "path": "buildings/spiral-shack/model.gltf",
+          "bytes": 4158,
+          "sha256": "78f8a9c5239a8ca9d470726ea1d58071bbb152378b4cb3ddd26948502e67791d"
+        },
+        {
+          "path": "buildings/spiral-shack/textures/shack_details_diff.png",
+          "bytes": 4882513,
+          "sha256": "8d2fe60cd998bf55a83f58721310d2e41e1861e6f656c10d2404959311819ac0"
+        },
+        {
+          "path": "buildings/spiral-shack/textures/shack_main_diff.png",
+          "bytes": 6309935,
+          "sha256": "02b7f910570f451df7f94645682a746fbbf111c757d644fc2452734e8b9d71f7"
+        }
+      ]
+    }
+  ]
+}
