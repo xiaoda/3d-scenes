@@ -6,6 +6,7 @@ export default async function checkTownBrowser() {
  assert(document.documentElement.scrollWidth<=innerWidth,'页面没有横向溢出');
  for(const [key,ground] of [['tavern',22],['shack',12],['barrel',6],['door',6],['floor',6]]){
   $('[data-asset="'+key+'"]').click();await settle();
+  if(key==='tavern'){$('[data-variant="original"]').click();await settle();}
   const s=api.inspect();
   assert(s.active===key,'切换 '+key);assert(s.groundSize===ground,'地面尺度 '+key);
   assert($('[data-asset="'+key+'"]').getAttribute('aria-pressed')==='true','按钮状态 '+key);

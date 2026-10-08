@@ -1,0 +1,34 @@
+{
+  "id": "castle_wall_slates",
+  "name": "Castle Wall Slates",
+  "author": "Rob Tuytel",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "source": "https://polyhaven.com/a/castle_wall_slates",
+  "api": "https://api.polyhaven.com/files/castle_wall_slates",
+  "tileMetres": 2.5,
+  "retrieved": "2026-10-08",
+  "files": [
+    {
+      "role": "baseColor",
+      "path": "castle_wall_slates_diff_2k.jpg",
+      "size": 2381426,
+      "md5": "abec73c50e2f2052d9c92f7ac10b8dbd",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_diff_2k.jpg"
+    },
+    {
+      "role": "normal",
+      "path": "castle_wall_slates_nor_gl_2k.jpg",
+      "size": 4054865,
+      "md5": "2d0f79ec91411413d25b03cd81db8e6a",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_nor_gl_2k.jpg"
+    },
+    {
+      "role": "arm",
+      "path": "castle_wall_slates_arm_2k.jpg",
+      "size": 1149678,
+      "md5": "0109e42dafa4e1675ac13e87e86e0466",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_arm_2k.jpg"
+    }
+  ]
+}

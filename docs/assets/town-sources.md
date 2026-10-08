@@ -48,3 +48,16 @@
 - `p1Accepted` 仍为 `false`，主建筑状态为 `candidate-review`。网站可运行、模型可加载与视觉基线是不同关口。
 
 当前结果和后续质量关见 [建筑检查记录](../reviews/2026-10-08-town-building-qa.md)。
+
+## 2026-10-08 酒馆立面独立变体
+
+第一批效果获用户阶段认可，已认可版本推送到 GitHub `main`（`766ca84`）。本轮保留原件，只新增 `facade/tavern-v1/`，不把阶段认可扩大为完整街角验收。
+
+- 石墙：[Castle Wall Slates](https://polyhaven.com/a/castle_wall_slates)，Rob Tuytel，CC0；官方 2.5 × 2.5m 尺度。通过 Poly Haven 官方 API 获取 2K Diffuse、OpenGL Normal、ARM；原字节 MD5/大小与运行文件 SHA256 都已校验，未修改位图。
+- 获取清单：[`facade-materials.json`](../../asset-sources/facade-materials.json)；模型原作者仍为 Daniel Andersson，保留 OpenGameArt 来源。
+- 升级墙面仅 Level1/Level2 的 StoneWall，颜色 sRGB、法线与 ARM 为数据图；法线 0.65、AO 0.8、metallic 0。世界坐标投影 UV，避免用一张小图拉满整面墙。
+- 20 扇矩形窗改为低饱和不透明玻璃近似，补 720 三角面的实体细格栅，合并一个网格；圆/半圆窗不强加矩形格栅。四门增加 0.06m 厚度、0.006m 倒角，保留原木图。
+- 变体合计 9,161 三角面 / 56 运行网格，14 个文件、10,089,073 bytes（约 9.62 MiB）；原版 8,017 / 55。建筑包围盒在 1e-7m 容差内一致。
+- [`facade/manifest.json`](../../public/assets/town/facade/manifest.json) 独立登记来源、哈希、修改范围与 `accepted:false`。屋瓦/木梁/基础/砖烟囱仍为旧图；没有室内、真实开窗或自由行走，不是整栋完整 PBR。
+
+本轮视觉、失败降级和自动检查见 [立面升级检查记录](../reviews/2026-10-08-tavern-facade-qa.md)。

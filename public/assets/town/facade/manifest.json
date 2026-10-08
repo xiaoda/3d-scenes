@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "accepted": false,
+  "assets": [
+    {
+      "id": "tavern-facade-v1",
+      "name": "Medieval Tavern · 立面升级 v1",
+      "author": "Daniel Andersson（原模型） / Rob Tuytel（石墙）",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/medieval-tavern",
+      "sources": [
+        {
+          "name": "原始酒馆",
+          "url": "https://opengameart.org/content/medieval-tavern",
+          "author": "Daniel Andersson (Daniel74); OpenGameArt 上传者 hreikin",
+          "license": "CC0-1.0"
+        },
+        {
+          "name": "Castle Wall Slates",
+          "url": "https://polyhaven.com/a/castle_wall_slates",
+          "author": "Rob Tuytel",
+          "license": "CC0-1.0"
+        }
+      ],
+      "materialSource": "https://polyhaven.com/a/castle_wall_slates",
+      "model": "facade/tavern-v1/model.gltf",
+      "textureLabel": "石墙 2K / 其余原图",
+      "original": {
+        "path": "buildings/daniel-tavern/model.gltf",
+        "sha256": "c946faae6a298ee37b895c61b93ef6a0bc960705b29e47e486d90c5060aba227"
+      },
+      "conversionStats": "facade/tavern-v1/conversion.json",
+      "review": {
+        "status": "study",
+        "limitations": [
+          "只升级石墙、窗面与门扇，不是整栋完整 PBR",
+          "不含室内；玻璃为不透明近似",
+          "石墙法线不改变轮廓，木梁/屋瓦仍为旧图",
+          "同机位对照，待用户评审"
+        ]
+      },
+      "files": [
+        {
+          "path": "facade/tavern-v1/conversion.json",
+          "bytes": 611,
+          "sha256": "12b159ca841c48eb1f3e0113248023113ec818fe23b42e21d3d80f88babb2689"
+        },
+        {
+          "path": "facade/tavern-v1/model.bin",
+          "bytes": 514496,
+          "sha256": "2129ebff5c5dff1ffd3f3cfa35b4ccf20c44604a7a1b48d395ecf33d74c9b659"
+        },
+        {
+          "path": "facade/tavern-v1/model.gltf",
+          "bytes": 88069,
+          "sha256": "6c7fdd7145deaed119df67523b8f0f1eba1cdf227dd2268630e5876288bf6b6c"
+        },
+        {
+          "path": "facade/tavern-v1/textures/DarkStone.jpg",
+          "bytes": 127629,
+          "sha256": "db440a148293e1121b775da4b8d54ab6abe2c0829b5799b6ee64583c481d2b3b"
+        },
+        {
+          "path": "facade/tavern-v1/textures/DoorType1_2.jpg",
+          "bytes": 248592,
+          "sha256": "cf831de534b37567c19638a2f8bf099c6ed3d2edc90e4f9c20aafcdde6beaa0d"
+        },
+        {
+          "path": "facade/tavern-v1/textures/GreyBricks.jpg",
+          "bytes": 140115,
+          "sha256": "8e42ba4ce7c1e3e1538f90f78fd76f760ffc58220e67e2bf2e456402f9459325"
+        },
+        {
+          "path": "facade/tavern-v1/textures/RoofTiles.jpg",
+          "bytes": 194812,
+          "sha256": "df73a93cc468528c36c4e0c39b706575e5aab6077dc5d829e5948284c3c67fc8"
+        },
+        {
+          "path": "facade/tavern-v1/textures/Rusted Metal.jpg",
+          "bytes": 298722,
+          "sha256": "63a6a0bd18f8bd8c01ba18efe83a15baf18ce75cabf9f441b85cad11054118ac"
+        },
+        {
+          "path": "facade/tavern-v1/textures/ThePaintedWenchSign.jpg",
+          "bytes": 116942,
+          "sha256": "458b3f82b5296fcd0110e4605bf6ec7800707d752f95d403d3dadbf542e6eeb8"
+        },
+        {
+          "path": "facade/tavern-v1/textures/TreeLogEdgeWeathered.jpg",
+          "bytes": 260268,
+          "sha256": "b68f0516d81a570e927675398c9bcb04490509d8dff8fc725581b0d028689480"
+        },
+        {
+          "path": "facade/tavern-v1/textures/Wood.jpg",
+          "bytes": 512848,
+          "sha256": "8def4262d4a9e6b46aa784261adfe08539b7d62a6349449d50b008f85f42c842"
+        },
+        {
+          "path": "facade/tavern-v1/textures/castle_wall_slates_arm_2k.jpg",
+          "bytes": 1149678,
+          "sha256": "0d233f78fde99498001339f5ae87d5e95f1ccd1950f1328868fd273473eb6e37"
+        },
+        {
+          "path": "facade/tavern-v1/textures/castle_wall_slates_diff_2k.jpg",
+          "bytes": 2381426,
+          "sha256": "89e1dce61cf53decf586bd123b9280365e447019ebedaf3b8e48663ab37eab30"
+        },
+        {
+          "path": "facade/tavern-v1/textures/castle_wall_slates_nor_gl_2k.jpg",
+          "bytes": 4054865,
+          "sha256": "ea6042cdb95576d9c2d67c7fa26e3648cca09d8d2fcaf4dfe7d6052a970d7b28"
+        }
+      ]
+    }
+  ],
+  "materialDownload": {
+    "id": "castle_wall_slates",
+    "name": "Castle Wall Slates",
+    "author": "Rob Tuytel",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "source": "https://polyhaven.com/a/castle_wall_slates",
+    "api": "https://api.polyhaven.com/files/castle_wall_slates",
+    "tileMetres": 2.5,
+    "retrieved": "2026-10-08",
+    "files": [
+      {
+        "role": "baseColor",
+        "path": "castle_wall_slates_diff_2k.jpg",
+        "size": 2381426,
+        "md5": "abec73c50e2f2052d9c92f7ac10b8dbd",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_diff_2k.jpg"
+      },
+      {
+        "role": "normal",
+        "path": "castle_wall_slates_nor_gl_2k.jpg",
+        "size": 4054865,
+        "md5": "2d0f79ec91411413d25b03cd81db8e6a",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_nor_gl_2k.jpg"
+      },
+      {
+        "role": "arm",
+        "path": "castle_wall_slates_arm_2k.jpg",
+        "size": 1149678,
+        "md5": "0109e42dafa4e1675ac13e87e86e0466",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_arm_2k.jpg"
+      }
+    ]
+  }
+}

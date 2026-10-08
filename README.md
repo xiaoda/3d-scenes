@@ -7,7 +7,9 @@
 - 本地石砌酒馆、茅草小屋、酒桶、拱形木门、铺石地面及 HDR 环境光。
 - 模型旋转、缩放、正反面和近景机位、光照切换、线框检查。
 - P0 视觉参考板、资产来源与许可记录、自动测试及浏览器验证记录。
-- 已自主取得两栋 CC0 建筑并转换为 glTF；酒馆近景质量未通过，小屋仅作辅助候选。下一步是材质/门窗改造评估，然后制作街角样片，不复刻特定地点。
+- 已自主取得两栋 CC0 建筑并转换为 glTF；第一批已获用户阶段认可，原件冻结。小屋仍仅作辅助候选。
+- 新增酒馆立面升级：2K 石墙 PBR、实际尺度 UV、20 扇窗实体格栅和 4 扇门厚；原始版 / 升级版切换保留机位与光照。升级版待用户评审，不等于整栋 PBR 或最终近景基线通过。
+- 下一道质量关是确认近景改造方向、继续统一屋瓦/木梁，再制作小街角样片，不复刻特定地点。
 
 ## 本地运行
 
@@ -34,7 +36,7 @@ npm run build
 npm run preview
 ```
 
-2026-10-08 本轮：合计 23 项自动检查通过，桌面和窄屏各 48 项浏览器断言通过，另覆盖 5 种加载/失败场景。测试结果不等于最终画质或连续行走性能验收。
+2026-10-08 立面升级：合计 26 项自动检查通过，桌面和窄屏各 86 项浏览器断言通过（48 项原资产回归 + 38 项版本对照），另覆盖 6 种加载/失败场景。测试结果不等于最终画质或连续行走性能验收。构建仍有约 656 kB 的 JS 分包体积警告，未掩盖或当作错误跳过。
 
 ## 建筑离线转换（仅重新制作资产时需要）
 
@@ -51,6 +53,21 @@ node --test tests/buildings.test.mjs
 下载脚本固定原包 SHA-256、拒绝重定向及越界路径，仅提取模型/纹理，不执行源包脚本或 Unity 内容。转换保留原几何/UV/颜色图，旧材质固定粗糙度只是近似迁移，不是凭空获得真实 PBR。脚本不会自动安装 Blender、Python 包或购买素材。原件、工具和转换日志留在 `.preview/`，不提交。
 
 ## 项目结构
+
+### 酒馆立面变体的离线重建
+
+运行网站已包含产物，不需要执行这些命令。仅在重新制作时：
+
+```sh
+node scripts/fetch-facade-materials.mjs
+blender --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/upgrade-tavern.py
+node scripts/register-facade.mjs
+node --test tests/facade.test.mjs tests/variants.test.mjs
+```
+
+同样使用已验证的 Blender 4.5.14 LTS，Windows 独立运行须显式隐藏并记录输出。脚本核对来源哈希，不覆盖 `buildings/` 原件；独立产物在 `facade/tavern-v1/`。石墙图来自 Poly Haven / Rob Tuytel，CC0，按官方 2.5m 平铺尺度投影；不修改图片像素。木梁、屋瓦、基础与烟囱仍用原图，窗玻璃为不透明近似，没有室内。
+
+### 目录
 
 | 目录 | 内容 |
 |---|---|
@@ -70,7 +87,8 @@ node --test tests/buildings.test.mjs
 - [P1 资产来源与运行时处理](docs/assets/town-sources.md)
 - [P1 检查记录](docs/reviews/2026-10-08-town-p1-qa.md)
 - [建筑实物检查记录](docs/reviews/2026-10-08-town-building-qa.md)
-- [本轮实施计划](docs/plans/2026-10-08-town-p2-assets.md)
+- [立面升级实施计划](docs/plans/2026-10-08-tavern-facade.md)
+- [立面升级检查记录](docs/reviews/2026-10-08-tavern-facade-qa.md)
 - [P0 参考图片来源与许可](docs/p0-town/sources.md)
 
 第三方模型、贴图、HDR 和参考照片分别遵循其来源台账中的许可，保留原作者与许可链接；不要将素材许可理解为整个代码仓库的统一许可。

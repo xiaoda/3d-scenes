@@ -6,6 +6,7 @@ import {cameraPreset,floorCameraPreset,groundControlState,groundPlacement,textur
 import type {View,Size} from './inspection.ts';
 import {base,catalog} from '../assets/catalog.ts';
 import type {AssetKey,Manifest} from '../assets/catalog.ts';
+import {isTavernVariant} from './variants.ts';
 
 export interface ModelReport {key:AssetKey;size:Size;triangles:number;meshes:number;materials:number}
 function disposeTree(root:THREE.Object3D){
@@ -120,14 +121,14 @@ export class AssetLab {
    this.environmentTarget=env;this.scene.environment=env.texture;this.scene.environmentIntensity=.7;
    hdr.dispose();pmrem.dispose();
   };
-  const results=await Promise.allSettled([loadModel('barrel'),loadModel('door'),loadFloor(),loadEnvironment(),loadModel('tavern'),loadModel('shack')]);
-  results.forEach((r,i)=>{if(r.status==='rejected')this.errors.push(['酒桶','木门','地面','环境光','酒馆','小屋'][i]+'：'+String(r.reason));});
+  const results=await Promise.allSettled([loadModel('barrel'),loadModel('door'),loadFloor(),loadEnvironment(),loadModel('tavern'),loadModel('shack'),loadModel('tavern-upgrade')]);
+  results.forEach((r,i)=>{if(r.status==='rejected')this.errors.push(['酒桶','木门','地面','环境光','酒馆','小屋','立面升级'][i]+'：'+String(r.reason));});
   this.shadowDirty=true;
   return results;
  }
- select(key:AssetKey){if(!this.reports.has(key))throw Error('该资产未成功加载');this.active=key;this.fitGroundAndShadow();this.updateVisibility();this.view('overall');this.shadowDirty=true;this.invalidate();return this.reports.get(key)!;}
+ select(key:AssetKey,preserveView=false){if(!this.reports.has(key))throw Error('该资产未成功加载');const keep=preserveView&&isTavernVariant(this.active)&&isTavernVariant(key);this.active=key;this.fitGroundAndShadow();this.updateVisibility();if(!keep)this.view('overall');else this.detailSurfaceDistance=null;this.shadowDirty=true;this.invalidate();return this.reports.get(key)!;}
  private fitGroundAndShadow(){
-  const size=this.reports.get(this.active)!.size;
+  const size=this.reports.get(isTavernVariant(this.active)&&this.reports.has('tavern')?'tavern':this.active)!.size;
   const span=this.active==='floor'?6:inspectionGroundSize(size);
   if(this.floor){
    this.floor.scale.set(span/6,1,span/6);
@@ -148,7 +149,7 @@ export class AssetLab {
    const v=floorCameraPreset(view,this.camera.aspect);this.camera.position.set(...v.position);this.controls.target.set(...v.target);
   }else{
    const p=cameraPreset(b,view,this.camera.aspect);
-   if(view==='detail'&&(this.active==='tavern'||this.active==='shack')){
+   if(view==='detail'&&(isTavernVariant(this.active)||this.active==='shack')){
     // Setback facades are not the bounding-box front. Place the close-up one metre
     // from an actual mesh hit at eye height, without changing source geometry.
     this.scene.updateMatrixWorld(true);

@@ -1,8 +1,29 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>建筑实物筛选 · 榆叶酒馆</title><link rel="stylesheet" href="/notes.css"><link rel="icon" href="/favicon.svg"></head>
-<body><main><a href="/">← 返回实时检查台</a><p class="kicker">榆叶酒馆 / 建筑实物筛选 · 2026.10.08</p><h1>有了建筑原件，<br>还要经得起靠近。</h1><p class="lead">本轮由助手自主获取两份免费 CC0 建筑包，完成安全提取、旧格式转换和浏览器实检。<strong>技术导入完成，不等于主建筑品质通过；尚未完成 P2 街角或第一人称行走。</strong></p>
-<h2>01 / 石砌酒馆</h2><p><a href="https://opengameart.org/content/medieval-tavern" target="_blank" rel="noopener noreferrer">Medieval Tavern · Daniel Andersson / Daniel74</a>，由 hreikin 上传至 OpenGameArt。来源页与随包说明均标记 CC0。完整原件包含几何与内嵌颜色图，已转换为本地 glTF。</p><p>17.80 × 8.32 × 13.91 米，8,017 三角面，55 个运行网格。保留原 UV 与颜色图；旧 Blender Internal 材质迁移为固定粗糙度。<strong>没有原生法线与粗糙度贴图，不能称为完整 PBR 建筑。</strong></p><p>整体有屋顶、阳台、门廊和招牌，背面也有几何。但石墙图只有 480 × 480，近看有重复与拉伸；蓝色窗面不符合自然写实方向，部分门窗是贴片。当前只作为结构与材质改造评估样本，不能原样成为可近看的主角。</p>
-<h2>02 / 茅草小屋</h2><p><a href="https://opengameart.org/content/old-medieval-house" target="_blank" rel="noopener noreferrer">Old Medieval House · Spiral / Spiral Softworks</a>，CC0。原 FBX 与两张 2K PNG 已导入，使用原图 Alpha 裁切茅草轮廓，不运行包内 Unity 内容。</p><p>6.95 × 4.50 × 4.87 米，1,206 三角面，2 个运行网格。原作者定位俯视 RPG；乡村小屋的轮廓和草顶可作辅助候选，近景仍受简化几何、固定明暗和非 PBR 材质限制，不用它替代街角酒馆。</p>
-<h2>本轮检查台升级</h2><ul><li>五项样本可切换；建筑失败不会阻断原有酒桶、木门和地面。</li><li>建筑地面按实际占地调整，仍保持每 2 米一次的纹理尺度。</li><li>整体机位按包围盒八角适配横竖屏；建筑近景在约 1.6 米人眼高度射线寻找真实表面，再后退约 1 米。</li><li>支持正反面、近看、中性光、线框与重置；仍非自由行走模式。</li></ul>
-<h2>下一道质量关</h2><p>先对酒馆外墙材质、窗色与门窗厚度做改造可行性比较，必要时更换主建筑。达到近景基线后才制作 2–4 栋协调建筑组成的小街角，不扩大地图掩盖资产缺陷。</p><p>此前需要登录的候选仍保留，不绕过下载限制。暂不采购，也不要求用户必须提供模型包。</p>
-<h2>许可与可复现记录</h2><p>许可：<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>。原始归档 URL、SHA-256、转换说明、运行文件清单见 <a href="/assets/town/buildings/manifest.json">建筑独立台账</a>；原有素材见 <a href="/assets/town/manifest.json">Poly Haven 台账</a>。不将素材许可泛化为整个代码仓库许可。</p><p><a href="/p1-notes.html">查看上一轮 P1 历史记录 →</a></p><p class="end">已获取 ≠ 技术验证 ≠ 主建筑通过 ≠ 最终画质验收。</p></main></body></html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>立面研究与质量边界 · 榆叶酒馆</title><link rel="stylesheet" href="/notes.css"><link rel="icon" href="/favicon.svg"></head>
+<body><main>
+<a href="/">← 返回实时检查台</a>
+<p class="kicker">榆叶酒馆 / 立面研究 01 · 2026.10.08</p>
+<h1>保留认可的轮廓，<br>把近景再往前推一步。</h1>
+<p class="lead">第一批效果已获用户阶段认可，原件完整保留。这次只研究石墙、窗面与门扇，提供同机位、同光照切换。<strong>升级版待评审，不等于整栋 PBR、完整街角或最终画质通过。</strong></p>
+<h2>01 / 酒馆立面升级 v1</h2>
+<p>石墙使用 <a href="https://polyhaven.com/a/castle_wall_slates" target="_blank" rel="noopener noreferrer">Castle Wall Slates · Rob Tuytel / Poly Haven</a>，CC0。采用 2K 颜色、OpenGL 法线和 ARM 三图，保留来源图片原字节，按官方 2.5 × 2.5 米尺度重新投影 UV，不再把一张小图拉满整面墙。</p>
+<ul><li>蓝色窗面改为低饱和深灰绿，20 扇矩形窗补实体细格栅；圆窗不强加矩形格栅。</li><li>四扇门保留原木纹，增加 6 厘米厚度和 6 毫米倒角。</li><li>整体尺寸仍为 17.80 × 8.32 × 13.91 米；9,161 三角面 / 56 运行网格，较原版新增 1,144 面 / 1 网格。</li><li>木梁、屋瓦、基础与砖烟囱仍用原图；窗玻璃为不透明近似，没有室内。石墙法线不会改变轮廓，重复和转角接缝仍需后续处理。</li></ul>
+<h2>怎样比较</h2>
+<p>在酒馆检查视口选择“原始版 / 立面升级”。切换保持相机、观察目标、光照、地面和线框条件，不偷偷拉远或加强升级版照明。建议先看整体，再看正面中性光与约 1 米近景。离开酒馆再返回会记住本次选择；重置只恢复检查条件，不改版本。</p>
+<p>桌面与 390 像素窄屏各通过 86 项浏览器断言，26 项资产/逻辑自动检查通过；另验证 6 种加载与资源缺失场景。升级模型或贴图缺失时禁用该版本，原件仍可检查。<strong>这些结果不是连续行走帧率或最终艺术质量验收。</strong></p>
+<h2>02 / 保留的原始酒馆</h2>
+<p><a href="https://opengameart.org/content/medieval-tavern" target="_blank" rel="noopener noreferrer">Medieval Tavern · Daniel Andersson / Daniel74</a>，hreikin 上传至 OpenGameArt；来源页与随包说明均为 CC0。原版 8,017 三角面 / 55 运行网格，几何、UV、颜色图与运行文件均保持不变。</p>
+<p>原版屋顶、阳台、门廊和背面完整，但 480px 石墙、蓝窗和贴片门窗不适合直接作为近景定稿。旧 Blender Internal 材质迁移为固定粗糙度，不是原生 PBR。用户认可的是第一批阶段效果，不代表这些限制已经消失。</p>
+<h2>03 / 茅草小屋与原有样本</h2>
+<p><a href="https://opengameart.org/content/old-medieval-house" target="_blank" rel="noopener noreferrer">Old Medieval House · Spiral / Spiral Softworks</a>，CC0。6.95 × 4.50 × 4.87 米，1,206 三角面 / 2 网格；保留 FBX 原尺寸与两张 2K PNG，Alpha 裁切草顶边缘，不运行包内 Unity 内容。仍仅作乡村附属候选，不替代街角酒馆。</p>
+<p>酒桶、拱形木门、铺石地面及 HDR 继续保留。地面按建筑占地调整，但保持每 2 米的纹理尺度；正反面、近景、光照、线框与重置均可使用。</p>
+<h2>下一道质量关</h2>
+<p>先比较这次的石墙与窗面方向；认可后继续统一屋瓦、木梁和门框近景，再制作 2–4 栋协调建筑的小街角、人物尺度与行走路线。现在没有整街、碰撞、室内或第一人称行走，不扩大地图掩盖资产缺陷。</p>
+<p>此前需要登录的候选仅保留线索，不绕过下载限制。继续优先免费素材，暂不采购，也不要求用户必须提供模型包。</p>
+<h2>许可与可复现记录</h2>
+<p>素材许可：<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>；<a href="https://polyhaven.com/license">Poly Haven 官方说明</a>。原模型作者与新增材质作者分别保留，不泛化为整个代码仓库许可。</p>
+<p>文件、哈希、来源与改造范围：<a href="/assets/town/facade/manifest.json">立面独立台账</a> · <a href="/assets/town/buildings/manifest.json">原始建筑台账</a> · <a href="/assets/town/manifest.json">原有 Poly Haven 台账</a>。三者独立，升级版失败不覆盖原件。</p>
+<p><a href="/p1-notes.html">查看第一轮 P1 历史记录 →</a></p>
+<p class="end">阶段认可 ≠ 升级版认可 ≠ 完整街角 ≠ 最终画质验收。</p>
+</main></body></html>

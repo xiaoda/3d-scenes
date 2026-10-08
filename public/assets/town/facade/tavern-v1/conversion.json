@@ -1,0 +1,18 @@
+{
+  "wallTileMetres": 2.5,
+  "doorThicknessMetres": 0.06,
+  "thickenedDoors": 4,
+  "rectangularWindows": 20,
+  "sourceGeometryPreserved": true,
+  "sourceSha256": "c946faae6a298ee37b895c61b93ef6a0bc960705b29e47e486d90c5060aba227",
+  "sourceNote": "Original geometry preserved except explicit door thickness/bevel; wall UVs replaced. No bitmap edits.",
+  "wallMeshes": [
+    "Level1",
+    "Level2"
+  ],
+  "remainingLegacyMaterials": "Roof, timber, foundation, brick chimney retain original albedo.",
+  "blenderVersion": "4.5.14 LTS",
+  "leadTriangles": 720,
+  "runtimeTriangles": 9161,
+  "runtimePrimitives": 56
+}
