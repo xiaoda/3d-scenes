@@ -1,7 +1,7 @@
 export type AssetKey='barrel'|'door'|'floor'|'tavern'|'shack'|'tavern-upgrade';
 export const base='/assets/town/';
 export const catalog={
- 'tavern-upgrade':{id:'tavern-facade-v1',title:'石砌酒馆 · 立面升级',tag:'升级研究 / 等待对照评审',note:'石墙使用真实 2K PBR 与 2.5 米尺度 UV；窗面改为低饱和深色，补实体格栅和 6 厘米门厚。木梁、屋瓦仍为原图；不含室内，也不宣称整栋完整 PBR。'},
+ 'tavern-upgrade':{id:'tavern-facade-v1',title:'石砌酒馆 · 立面升级',tag:'立面效果已获认可 / 保留原版对照',note:'石墙使用真实 2K PBR 与 2.5 米尺度 UV；窗面改为低饱和深色，补实体格栅和 6 厘米门厚。木梁、屋瓦仍为原图；不含室内，也不宣称整栋完整 PBR。'},
  tavern:{id:'daniel-tavern',title:'石砌酒馆 · 原始版',tag:'第一批已获阶段认可 / 原件对照',note:'保留你已认可的完整轮廓、原始几何与颜色图，不覆盖文件。可与立面升级版同机位对比；低分辨率石墙、蓝色窗面及部分贴片门窗仍是原版限制。'},
  shack:{id:'spiral-shack',title:'茅草小屋',tag:'辅助建筑候选 / 非主角替代',note:'原作者定位俯视 RPG；保留两张 2K 图与茅草 Alpha 边缘。它可以作为远处附属屋的候选，但不能因为容易下载就替代写实街角酒馆。'},
  barrel:{id:'wine_barrel_01',title:'旧木酒桶',tag:'候选 / 待视觉认可',note:'保留木条、铁箍与桶口的真实几何。检查近景贴图密度和侧后方，不把“加载成功”当画质通过。'},

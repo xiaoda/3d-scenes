@@ -15,7 +15,7 @@ export const barrels=[{x:11,z:1.1},{x:12,z:1.7},{x:-5.7,z:8.8}] as const;
 export const crates=[{x:13.5,z:1.4,w:.9,h:.65,d:.7},{x:13.5,z:2.2,w:.7,h:.5,d:.65}] as const;
 export const obstacles:Rect[]=[...buildings.map(b=>b.footprint),...walls.map(w=>({minX:w.x-w.width/2,maxX:w.x+w.width/2,minZ:w.z-w.depth/2,maxZ:w.z+w.depth/2})),...barrels.map(p=>({minX:p.x-.39,maxX:p.x+.39,minZ:p.z-.39,maxZ:p.z+.39})),...crates.map(p=>({minX:p.x-p.w/2,maxX:p.x+p.w/2,minZ:p.z-p.d/2,maxZ:p.z+p.d/2}))];
 export const viewpoints={
- entry:{x:10,z:19,yaw:.28,pitch:.10,label:'入街'},
+ entry:{x:9,z:17,yaw:.62,pitch:.10,label:'入街'},
  porch:{x:7,z:2.2,yaw:.30,pitch:.08,label:'酒馆门廊'},
  corner:{x:-4.5,z:13.5,yaw:.15,pitch:.13,label:'石路转角'},
 } as const;

@@ -3,6 +3,8 @@ import bpy,json,pathlib,hashlib
 from mathutils import Vector,Matrix
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 source=ROOT/'.preview/street-source/House1Upload.blend'
+spec=json.loads((ROOT/'asset-sources/street-house.json').read_text(encoding='utf-8'))
+if hashlib.sha256(source.read_bytes()).hexdigest()!=spec['sourceBlendSha256']:raise ValueError('Source blend changed; run verified prepare script')
 dest=ROOT/'public/assets/town/street/house1';dest.mkdir(parents=True,exist_ok=True)
 bpy.ops.wm.open_mainfile(filepath=str(source),use_scripts=False)
 mapping={t.name:t.image for t in bpy.data.textures if t.type=='IMAGE' and t.image}

@@ -10,6 +10,7 @@
       "license": "CC0-1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "retrieved": "2026-10-08",
+      "sourceBlendSha256": "3ee3158d231060500fc15b175592759c12a0a0dc12656e49f36bd39f807682d6",
       "archive": {
         "url": "https://opengameart.org/sites/default/files/75519_House1Upload_blend.zip",
         "bytes": 5947310,
@@ -19,7 +20,7 @@
         "House1Upload.blend",
         "75519 - Medieval houses - License.html"
       ],
-      "licenseEvidence": "OpenGameArt 原发布页 CC0；随包许可另行检查并记录于 QA。",
+      "licenseEvidence": "OpenGameArt 原发布页 CC0；随包 75519 - Medieval houses - License.html 标记 Daniel74 / Creative Commons Zero (Public Domain)，其旧链接指向 Public Domain Mark。采用原发布页 CC0 声明并保留作者。",
       "model": "street/house1/model.gltf",
       "conversion": "独立转换；原几何/UV/内嵌颜色图，旧材质固定粗糙度近似；窗色和门厚调整；缺失的链接 Wood 用包内本地 Wood 连接，不依赖外部 blend。",
       "files": [

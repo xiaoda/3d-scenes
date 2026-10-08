@@ -61,3 +61,16 @@
 - [`facade/manifest.json`](../../public/assets/town/facade/manifest.json) 独立登记来源、哈希、修改范围与 `accepted:false`。屋瓦/木梁/基础/砖烟囱仍为旧图；没有室内、真实开窗或自由行走，不是整栋完整 PBR。
 
 本轮视觉、失败降级和自动检查见 [立面升级检查记录](../reviews/2026-10-08-tavern-facade-qa.md)。
+
+## 2026-10-08 P2 街角：同作者联排配楼
+
+新增 [Medieval House Pack / House 1](https://opengameart.org/node/31333)，Daniel Andersson / Daniel74，hreikin 上传。原发布页 CC0；随包 `75519 - Medieval houses - License.html` 写明 Creative Commons Zero (Public Domain)，旧超链接却指向 Public Domain Mark，台账保留这一差异，以原发布页 CC0 声明为来源证据。
+
+- 公开原包 `75519_House1Upload_blend.zip`，5,947,310 bytes，SHA256 `d7b53c94eb77fbba5e57360bbc8ac9889eff85340bf1e9a92d851e58b88cee0d`。只提取模型与许可，不运行来源脚本。
+- 原文件缺少外部库中的一个 Wood 材质引用；几何并未缺失，使用同包已内嵌的本地 Wood 图显式重建材质，不伪造下载缺失库，也不保留运行时外部依赖。
+- 保留原几何与 UV、米制尺寸；迁移颜色图，固定粗糙度近似；蓝窗改低饱和不透明近似、门加 6cm 厚度。没有替配楼创造完整 PBR 或室内。
+- 尺寸 16.50 × 12.27 × 8.54m，17,074 三角面、83 个运行网格。模型是原作者设计的一组相连住宅，不是把既有酒馆简单复制一份。
+- 13 个运行文件合计 4,156,106 bytes（约 3.96 MiB），见 [`street/manifest.json`](../../public/assets/town/street/manifest.json)。下载/重建入口：[`street-house.json`](../../asset-sources/street-house.json)、`prepare-street-house.py`、`convert-street-house.py`、`register-street-house.mjs`。
+- 街角复用原酒馆立面、石路、HDR 和酒桶。场景中木梁、屋瓦及部分砖材色调只在独立加载实例上调整一次，不改旧资产字节；院墙、路缘、木箱为本项目辅助几何，使用上述授权素材材质。
+
+P2 首版待评审；[本轮检查记录](../reviews/2026-10-08-town-street-qa.md) 区分配楼导入、场景效果、行走边界与短时性能数据。
