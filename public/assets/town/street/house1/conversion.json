@@ -1,0 +1,12 @@
+{
+  "sizeYUp": [
+    16.495742797851562,
+    12.274816513061523,
+    8.535837173461914
+  ],
+  "sourceSha256": "3ee3158d231060500fc15b175592759c12a0a0dc12656e49f36bd39f807682d6",
+  "blender": "4.5.14 LTS",
+  "meshes": 83,
+  "triangles": 17074,
+  "note": "Original geometry/UV/packed albedo; opaque dark windows, 6cm doors; legacy fixed roughness, not full PBR. Missing linked Wood replaced with packed local Wood."
+}

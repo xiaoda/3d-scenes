@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "accepted": false,
+  "assets": [
+    {
+      "id": "daniel-house1",
+      "name": "Medieval House Pack / House 1",
+      "author": "Daniel Andersson / Daniel74（hreikin 上传）",
+      "source": "https://opengameart.org/node/31333",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retrieved": "2026-10-08",
+      "archive": {
+        "url": "https://opengameart.org/sites/default/files/75519_House1Upload_blend.zip",
+        "bytes": 5947310,
+        "sha256": "d7b53c94eb77fbba5e57360bbc8ac9889eff85340bf1e9a92d851e58b88cee0d"
+      },
+      "extract": [
+        "House1Upload.blend",
+        "75519 - Medieval houses - License.html"
+      ],
+      "licenseEvidence": "OpenGameArt 原发布页 CC0；随包许可另行检查并记录于 QA。",
+      "model": "street/house1/model.gltf",
+      "conversion": "独立转换；原几何/UV/内嵌颜色图，旧材质固定粗糙度近似；窗色和门厚调整；缺失的链接 Wood 用包内本地 Wood 连接，不依赖外部 blend。",
+      "files": [
+        {
+          "path": "street/house1/conversion.json",
+          "bytes": 415,
+          "sha256": "8c37cdbe12757830b8ad7a69488ae0cf6fdfe32c2f314a75a1a50b842f98681f"
+        },
+        {
+          "path": "street/house1/model.bin",
+          "bytes": 857036,
+          "sha256": "d540225ea6cb78a903f0bd8d423a72802833b4a41b2d3fdb35babd76ceed7b3f"
+        },
+        {
+          "path": "street/house1/model.gltf",
+          "bytes": 123631,
+          "sha256": "38553373fc0d48b3533a5e573db9d33367a178771908c53b692ed8e6066c99b4"
+        },
+        {
+          "path": "street/house1/textures/DoorType1_1.jpg",
+          "bytes": 427522,
+          "sha256": "39a1a9cabcafb9a2bef5532e3c15a159ec40451b96143ab6cf7b3a9e578aac28"
+        },
+        {
+          "path": "street/house1/textures/DoorType1_2.jpg",
+          "bytes": 248592,
+          "sha256": "cf831de534b37567c19638a2f8bf099c6ed3d2edc90e4f9c20aafcdde6beaa0d"
+        },
+        {
+          "path": "street/house1/textures/GreyBricks2.jpg",
+          "bytes": 289485,
+          "sha256": "95689677a381bdbb0d50c6aec1d6f32a1bcd060faacbedb4b2a7bdc8e6e4ca2f"
+        },
+        {
+          "path": "street/house1/textures/GreyStone2.jpg",
+          "bytes": 21267,
+          "sha256": "b083e4e985829acd38c3dee98bfd1f71bae8ce997d605b00a4c880aff680802d"
+        },
+        {
+          "path": "street/house1/textures/PlasterLarge.jpg",
+          "bytes": 793902,
+          "sha256": "e66dba35cb0d00605288a74011408b1335c0acdde2b55c9378fd89535b218860"
+        },
+        {
+          "path": "street/house1/textures/RoofTiles.jpg",
+          "bytes": 194812,
+          "sha256": "df73a93cc468528c36c4e0c39b706575e5aab6077dc5d829e5948284c3c67fc8"
+        },
+        {
+          "path": "street/house1/textures/Rusted Metal.jpg",
+          "bytes": 298722,
+          "sha256": "63a6a0bd18f8bd8c01ba18efe83a15baf18ce75cabf9f441b85cad11054118ac"
+        },
+        {
+          "path": "street/house1/textures/Stone.jpg",
+          "bytes": 127606,
+          "sha256": "8a54c76c44fa77849db7492ad99976a6caffe08238225fba9a9d1eb2556ac5f9"
+        },
+        {
+          "path": "street/house1/textures/TreeLogEdgeWeathered.jpg",
+          "bytes": 260268,
+          "sha256": "b68f0516d81a570e927675398c9bcb04490509d8dff8fc725581b0d028689480"
+        },
+        {
+          "path": "street/house1/textures/Wood.jpg",
+          "bytes": 512848,
+          "sha256": "8def4262d4a9e6b46aa784261adfe08539b7d62a6349449d50b008f85f42c842"
+        }
+      ]
+    }
+  ]
+}

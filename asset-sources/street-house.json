@@ -1,0 +1,12 @@
+{
+  "id":"daniel-house1",
+  "name":"Medieval House Pack / House 1",
+  "author":"Daniel Andersson / Daniel74（hreikin 上传）",
+  "source":"https://opengameart.org/node/31333",
+  "license":"CC0-1.0",
+  "licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/",
+  "retrieved":"2026-10-08",
+  "archive":{"url":"https://opengameart.org/sites/default/files/75519_House1Upload_blend.zip","bytes":5947310,"sha256":"d7b53c94eb77fbba5e57360bbc8ac9889eff85340bf1e9a92d851e58b88cee0d"},
+  "extract":["House1Upload.blend","75519 - Medieval houses - License.html"],
+  "licenseEvidence":"OpenGameArt 原发布页 CC0；随包许可另行检查并记录于 QA。"
+}
