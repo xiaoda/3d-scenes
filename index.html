@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#263d31"><title>榆叶酒馆 · P1 资产试验台</title><link rel="icon" href="/favicon.svg"></head>
+<body><a class="skip" href="#viewport">跳到三维视口</a>
+<header class="header"><a class="brand" href="/">榆叶<span>场景制作手记</span></a><div class="breadcrumb">中世纪欧式小镇 <span>/</span> 资产试验台</div><span class="phase">P1 · 免费资产首轮</span></header>
+<main class="workspace">
+<aside class="sidebar"><div class="intro"><p class="eyebrow">先看清材料，再搭建街道</p><h1>让细节<br>经得起靠近。</h1><p>这次看真实导入的模型与贴图，<br>不是商店效果图，也不是最终街区。</p></div>
+<nav class="asset-list" aria-label="选择检查资产">
+<button class="asset active" data-asset="barrel" aria-pressed="true"><span class="num">01</span><span><strong>旧木酒桶</strong><small>木条 · 铁箍 · 磨损</small></span><span class="arrow">↗</span></button>
+<button class="asset" data-asset="door" aria-pressed="false"><span class="num">02</span><span><strong>拱形木门</strong><small>厚度 · 金属 · 背面</small></span><span class="arrow">↗</span></button>
+<button class="asset" data-asset="floor" aria-pressed="false"><span class="num">03</span><span><strong>铺石地面</strong><small>尺度 · 接缝 · 斜视</small></span><span class="arrow">↗</span></button></nav>
+<div class="pending"><span class="pending-label">主建筑 / 待补</span><p>尚未导入合格建筑。不会用程序盒子替代，也不会自动进入 P2。</p><a href="/p1-notes.html">查看筛选结论与待办 →</a></div>
+<div class="sidebar-foot"><span class="small-dot"></span>本地运行 · 无需在线素材服务<br><a href="/p0/">返回已确认的 P0 参考板 ↗</a></div></aside>
+<section class="stage-panel" aria-label="实时三维资产检查">
+<div class="stage-head"><div><p class="eyebrow">实时 3D / 资产检查，不是完整场景</p><h2 id="asset-title">旧木酒桶</h2></div><span id="load-state" class="load-state" role="status" aria-live="polite">正在载入</span></div>
+<div class="toolbar" aria-label="检查工具"><div class="segmented"><button data-light="sun" aria-pressed="true">自然侧光</button><button data-light="neutral" aria-pressed="false">中性检查</button></div><button id="wireframe" aria-pressed="false">线框</button><button id="ground-toggle" aria-pressed="true">显示地面</button><span class="scale-note">米制原始尺寸 · 无夸张放大</span></div>
+<div id="viewport" tabindex="0" aria-label="三维视口：鼠标左键旋转、滚轮缩放、右键平移；也可使用下方机位按钮。"><div id="loading" class="loading" role="status"><span></span><p>载入真实模型与 PBR 材质…</p><small>首次读取本地文件，稍后可自由检查。</small></div><div id="error" class="error" role="alert" hidden></div><div class="viewport-stamp">REAL-TIME / PBR <span>·</span> LOCAL ASSET STUDY</div><div class="gesture">左键旋转 <span>·</span> 滚轮缩放 <span>·</span> 右键平移</div></div>
+<div class="camera-bar"><span class="camera-label">检查机位</span><div class="camera-buttons"><button data-view="overall" aria-pressed="true">整体</button><button data-view="front" aria-pressed="false">正面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="detail" aria-pressed="false" id="detail-button">约 1 米近看</button></div><button id="reset">重置 ↺</button></div>
+<div class="asset-info"><div class="verdict"><span id="asset-tag">候选 / 待视觉认可</span><p id="asset-note">先检查木条起伏、铁箍边缘与侧后方；不以“能加载”代替品质验收。</p><a id="source-link" href="https://polyhaven.com/a/wine_barrel_01" target="_blank" rel="noopener noreferrer">来源：Poly Haven ↗</a><span id="credit"></span></div><dl class="stats"><div><dt>尺寸 / 宽 × 高 × 深</dt><dd id="dimensions">—</dd></div><div><dt>模型三角面</dt><dd id="triangles">—</dd></div><div><dt>贴图 / 本资产文件</dt><dd id="asset-size">—</dd></div></dl></div>
+</section></main><script type="module" src="/src/main.ts"></script></body></html>

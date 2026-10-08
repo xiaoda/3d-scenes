@@ -1,0 +1,27 @@
+{
+  "verified": "2026-10-07T08:20:02.146Z",
+  "documents": [
+    {
+      "file": "D:/Projects-X/3D-Scenes/旧项目复盘_3D-Cars与AoTai-Route.md",
+      "bytes": 31393,
+      "lines": 447,
+      "localLinks": 21,
+      "missing": [],
+      "unbalancedFences": false,
+      "containsInternalCitations": false,
+      "replacementCharacters": false
+    },
+    {
+      "file": "D:/Projects-X/3D-Scenes/网页3D场景复刻调研与低成本技术方案.md",
+      "bytes": 71458,
+      "lines": 840,
+      "localLinks": 3,
+      "missing": [],
+      "unbalancedFences": false,
+      "containsInternalCitations": false,
+      "replacementCharacters": false
+    }
+  ],
+  "archiveFilesChecked": 168,
+  "changedArchiveFiles": []
+}

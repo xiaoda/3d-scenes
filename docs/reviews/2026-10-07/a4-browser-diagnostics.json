@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"view\":\"hero\",\"settings\":{\"mode\":\"paint\",\"paint\":\"silver\",\"lights\":true,\"steering\":0,\"rotate\":false,\"dimensions\":false},\"gpu\":\"ANGLE (Intel, Intel(R) UHD Graphics (0x00009A60) Direct3D11 vs_5_0 ps_5_0, D3D11)\",\"software\":false,\"triangles\":225044,\"renderTriangles\":382050,\"drawCalls\":538,\"camera\":[-6.5,2.6,5.999999999999999],\"target\":[0,0.69,0]}\n```"
+    }
+  ]
+}

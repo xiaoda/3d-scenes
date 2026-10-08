@@ -1,0 +1,18 @@
+[
+  {
+    "project": "cars",
+    "pid": 2760,
+    "port": 58352,
+    "code": null,
+    "signal": "SIGTERM",
+    "status": "stopped"
+  },
+  {
+    "project": "aotai",
+    "pid": 28364,
+    "port": 58353,
+    "code": null,
+    "signal": "SIGTERM",
+    "status": "stopped"
+  }
+]

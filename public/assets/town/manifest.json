@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "p1Accepted": false,
+  "building": {
+    "status": "awaiting-source",
+    "note": "未导入合格主建筑；禁止以程序占位模型替代。"
+  },
+  "assets": [
+    {
+      "id": "wine_barrel_01",
+      "name": "Wine Barrel 01",
+      "author": "James Ray Cock",
+      "source": "https://polyhaven.com/a/wine_barrel_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "dimensionsSource": [
+        741.9015169143677,
+        756.035715341568,
+        871.2633550167084
+      ],
+      "downloadedAt": "2026-10-07T09:05:54.676Z",
+      "changes": "原始 glTF、bin、纹理字节不变。运行时平移居中落地，米制尺寸保持；以已提供 ARM 的 R 通道补接缺省 AO，强度 0.85，纹理各向异性上限 8。",
+      "model": "wine_barrel_01/wine_barrel_01_2k.gltf",
+      "files": [
+        {
+          "asset": "wine_barrel_01",
+          "path": "wine_barrel_01/wine_barrel_01_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wine_barrel_01/wine_barrel_01_2k.gltf",
+          "bytes": 6673,
+          "sha256": "cfff0c36ffde5ba24adf1ea499a7219a9369b870b7214d0bd1b554d758c279c9",
+          "md5": "d539ff427a5712be4133ffc8489b093b"
+        },
+        {
+          "asset": "wine_barrel_01",
+          "path": "wine_barrel_01/wine_barrel_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wine_barrel_01/wine_barrel_01.bin",
+          "bytes": 385912,
+          "sha256": "d827c31afed824b923ea9168462c93ab3ad3a88c4a68b155bd35efb1a02cbf00",
+          "md5": "84f578460020912056a1e3fbe3ec1b97"
+        },
+        {
+          "asset": "wine_barrel_01",
+          "path": "wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_arm_2k.jpg",
+          "bytes": 579968,
+          "sha256": "a8902e757c8fe2a80a851bf419906da641fd3829f5f21e5c6cd13016ee13180b",
+          "md5": "05f9953cd7d08c3cd4ae197c84262a3e"
+        },
+        {
+          "asset": "wine_barrel_01",
+          "path": "wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_nor_gl_2k.jpg",
+          "bytes": 531442,
+          "sha256": "a241d134de243f3f52e12e883eeeda881a4604d17486a94b7b994b33de08eacb",
+          "md5": "9ba30a934324a4bb078bcb1e220b062f"
+        },
+        {
+          "asset": "wine_barrel_01",
+          "path": "wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_diff_2k.jpg",
+          "bytes": 728748,
+          "sha256": "6a76da96d9bbe957fcab8021fc2710bf153eb98d22ff1439fa5093c7c90a7fdb",
+          "md5": "dbc89b97cee96eae289c8786c7d99351"
+        }
+      ]
+    },
+    {
+      "id": "large_castle_door",
+      "name": "Large Castle Door",
+      "author": "Tina",
+      "source": "https://polyhaven.com/a/large_castle_door",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "dimensionsSource": [
+        2012.115716934204,
+        338.9068990945816,
+        2964.752435684204
+      ],
+      "downloadedAt": "2026-10-07T09:05:55.098Z",
+      "changes": "原始 glTF、bin、纹理字节不变。运行时平移居中落地，米制尺寸保持；以已提供 ARM 的 R 通道补接缺省 AO，强度 0.85，纹理各向异性上限 8。",
+      "model": "large_castle_door/large_castle_door_2k.gltf",
+      "files": [
+        {
+          "asset": "large_castle_door",
+          "path": "large_castle_door/large_castle_door_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/large_castle_door/large_castle_door_2k.gltf",
+          "bytes": 6111,
+          "sha256": "c9622dd67a5f58c821eee2817c719c04c0eb595d01b121da503a3afdf9b5b4d9",
+          "md5": "301320484d7cceb4176297d3f510e929"
+        },
+        {
+          "asset": "large_castle_door",
+          "path": "large_castle_door/large_castle_door.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/large_castle_door/large_castle_door.bin",
+          "bytes": 422436,
+          "sha256": "7db2eb9d2b81207a30c849ba5de0f2c25085add88e437bc69764ce792758ff76",
+          "md5": "ed0cee2626677b1a520de7bd868d09cc"
+        },
+        {
+          "asset": "large_castle_door",
+          "path": "large_castle_door/textures/large_castle_door_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_castle_door/large_castle_door_diff_2k.jpg",
+          "bytes": 3105682,
+          "sha256": "ca2d7cc8071fd7c57ddbd4b71892bbfa775e0d6cc9b65e70f7eda0398f707302",
+          "md5": "030d6cb9b510fc5686a67c670650f06c"
+        },
+        {
+          "asset": "large_castle_door",
+          "path": "large_castle_door/textures/large_castle_door_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_castle_door/large_castle_door_arm_2k.jpg",
+          "bytes": 3723833,
+          "sha256": "038a66752c095bf4bf5f4b24849cf4bd1ae58ac4718edda37b7ee1fbfd1a33bc",
+          "md5": "5b31d5e2057371f82158bd56dbe19588"
+        },
+        {
+          "asset": "large_castle_door",
+          "path": "large_castle_door/textures/large_castle_door_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_castle_door/large_castle_door_nor_gl_2k.jpg",
+          "bytes": 4281351,
+          "sha256": "333e55f9fccdf8778c8aa94d1d8d296ce8bce50c8055e6f385545dac1e622fbd",
+          "md5": "915c45399d96e5c8617eb78685fb02a1"
+        }
+      ]
+    },
+    {
+      "id": "cobblestone_floor_08",
+      "name": "Cobblestone Floor 08",
+      "author": "Rob Tuytel",
+      "source": "https://polyhaven.com/a/cobblestone_floor_08",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "dimensionsSource": [
+        2000,
+        2000
+      ],
+      "downloadedAt": "2026-10-07T09:05:55.322Z",
+      "changes": "原始纹理字节不变；在 6×6 米、192×192 分段测试网格上平铺 3×3；颜色使用 sRGB，其他贴图按线性数据；位移 0.018/-0.018 米、法线强度 0.7 为检查初值。",
+      "textures": {
+        "baseColor": "cobblestone_floor_08/cobblestone_floor_08_diff_2k.jpg",
+        "normal": "cobblestone_floor_08/cobblestone_floor_08_nor_gl_2k.jpg",
+        "arm": "cobblestone_floor_08/cobblestone_floor_08_arm_2k.jpg",
+        "displacement": "cobblestone_floor_08/cobblestone_floor_08_disp_2k.jpg"
+      },
+      "files": [
+        {
+          "asset": "cobblestone_floor_08",
+          "path": "cobblestone_floor_08/cobblestone_floor_08_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_diff_2k.jpg",
+          "bytes": 2289909,
+          "sha256": "9aaf7db7f660f03d0c5c129c11e83caa828fb8bca63f8cd5154d450ffc4c340f",
+          "md5": "56404e8a3cdf04c8697dbbc7f9ddd65c"
+        },
+        {
+          "asset": "cobblestone_floor_08",
+          "path": "cobblestone_floor_08/cobblestone_floor_08_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_arm_2k.jpg",
+          "bytes": 805558,
+          "sha256": "c963cb6e73960e0a0562a2650d13fc6a259ef57e85945ed3b47d502697df4c03",
+          "md5": "6cbb7aa63416eb4ef1620477ac7b605b"
+        },
+        {
+          "asset": "cobblestone_floor_08",
+          "path": "cobblestone_floor_08/cobblestone_floor_08_disp_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_disp_2k.jpg",
+          "bytes": 537774,
+          "sha256": "503cf1444d98526e4105b065112c36258c0063e0fa0a86c573c29f45eecebe88",
+          "md5": "956f21bf0f92dcab336b955b9334c7d6"
+        },
+        {
+          "asset": "cobblestone_floor_08",
+          "path": "cobblestone_floor_08/cobblestone_floor_08_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_nor_gl_2k.jpg",
+          "bytes": 3948187,
+          "sha256": "42dd5fc2da4a858f9c076c9ac5002857a1c064f8f4c4ffb12fafecffb84e96cc",
+          "md5": "3d1c34ed083de54949e8375d69033b0b"
+        }
+      ]
+    },
+    {
+      "id": "kloofendal_48d_partly_cloudy_puresky",
+      "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+      "author": "Greg Zaal, Jarod Guest",
+      "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "dimensionsSource": null,
+      "downloadedAt": "2026-10-07T09:05:56.739Z",
+      "changes": "原始 HDR 文件不变；生成 PMREM 环境光，不作为背景；另加程序方向光，非重建实地照明。",
+      "hdri": "kloofendal_48d_partly_cloudy_puresky/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+      "files": [
+        {
+          "asset": "kloofendal_48d_partly_cloudy_puresky",
+          "path": "kloofendal_48d_partly_cloudy_puresky/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+          "bytes": 1435119,
+          "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798",
+          "md5": "c69498687e876bf68d2a8b8a62234eb9"
+        }
+      ]
+    }
+  ]
+}

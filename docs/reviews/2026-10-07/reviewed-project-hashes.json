@@ -1,0 +1,846 @@
+{
+  "captured": "2026-10-07T08:10:57.420Z",
+  "note": "复盘中段快照，收尾再次核对；不是归档项目历史版本签名。",
+  "files": [
+    {
+      "project": "cars",
+      "file": "package.json",
+      "sha256": "a01c2585423879db5561f43890e2b8b26ce9ba0eb96040adbd4ae2a6adb09551"
+    },
+    {
+      "project": "cars",
+      "file": "public/favicon.svg",
+      "sha256": "a954b369086f03d0e1bb13481c3dcafe21ac774d36d94ca7429ed8cc4d280f22"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/audi-a4-dimensions.pdf",
+      "sha256": "4f733bff3c350f1a86aeb9f3e38a617d24cce9bc2275d0b4c9f73b70d451a429"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/audi-a4-dimensions.png",
+      "sha256": "e82402dbfcd99b1932bc64feec9b471ea5f5a52704c2c4c5056be34c1ced073d"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2019/A195684_web_1440.jpg",
+      "sha256": "0491897078532ad358b773bd56e701cc9458795cd80338e8bc5115c59a25cc0b"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226712_web_1440.jpeg",
+      "sha256": "de040095045dea28b52c690e24cb47311ff7aef8a83e1076b97a77e66b738f03"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226704_web_1440.jpeg",
+      "sha256": "8dac47ff3c4b1fe4631d657d6a02512dcf5d9799e2f10e63f366c53a412358c7"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226705_web_1440.jpeg",
+      "sha256": "28ba08e4a94be58a73d2bcab003f6e5f036d735fcaa67c04d1cf46eac7c56b26"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226706_web_1440.jpeg",
+      "sha256": "844f0a55261f1aa1430c3021ddbe56fb5bb087ad4d3490928fb9fedcb4ee60d3"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226709_web_1440.jpeg",
+      "sha256": "0012005849a66aa766dd7fa2eb2a428a26d3bcfdd373c323ce60396102ab5d86"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/2022/A226710_web_1440.jpeg",
+      "sha256": "b4677e5364242797c9513ac574741959615a0bb4db3a8f92d6ab94c22e1aaa3a"
+    },
+    {
+      "project": "cars",
+      "file": "public/references/manifest.json",
+      "sha256": "5eb75bc8995f288b7aa2ec7f75233f6741a68cba893f05c8ec1c231e984a3b97"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/a4.test.ts",
+      "sha256": "abcb14ee2a43b963e46f3855fb9202374ed007e078dee19299c5f9bba0408e80"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/a4.ts",
+      "sha256": "cb35dba75e0f1716c838eb973bf7019acb98b8948e545f252c121cf3213a4996"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/calibration.test.ts",
+      "sha256": "73b24ed9c93f539e6ab999b21a5804c9106a8ffbb45d36d6c70a70f35c38e076"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/calibration.ts",
+      "sha256": "f8ed99ead2487aa9e8a31e817becccdabbf1098f1ff063f296c54a5f9ac25ff7"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/references.ts",
+      "sha256": "1256bd3aefab0654b56ae7d6494e8970912be07a26dc6c94c7f95da0a1acf26e"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/bodyShape.test.ts",
+      "sha256": "fe2ed092c2b86f6f35d29e1d0635d25db602d7a1b1d483883d4735a1375672a3"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/bodyEvidence.json",
+      "sha256": "e00fe2b7359a2f9976b440fee654f6eb2a2bb7a7f1828112355c0fdb53a84ed0"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/bodyShape.ts",
+      "sha256": "6a02a2fd77c3e88e4f95551580e911e0a92c58361d1ceace8e10748e65996e37"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/bodyShell.test.ts",
+      "sha256": "1404db4cbd8fb3ca68a17161ac44fa8542208753bc68e45e745e4a82e460437e"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/bodyShell.ts",
+      "sha256": "7c54ff23b918d59ce663ee355e1037a0eca5d6c167d2c97b09b43acbbb281fe7"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/cabinSurface.test.ts",
+      "sha256": "c470efcbe93f2af6310866389f960fe29371f72cd48af8dd15f8276c09466569"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/cabinEvidence.json",
+      "sha256": "2472875984067e40182cc5f1606b75a4d9a8064678d5907a6e785421e5aa4fc0"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/cabinSurface.ts",
+      "sha256": "e2055e9d0b8f8836b31edc2007f2821c0474ae5b7270f16d74f9201d3231ac7e"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/frontShape.ts",
+      "sha256": "f92149a0fdb1e16003ac158e67d9687f9487b12f323e5f767e27aa83dbca4a40"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/workspace.ts",
+      "sha256": "23b86f396af2f66d773dbf080375a470997d6d4f46f354ff5307a47257f8e255"
+    },
+    {
+      "project": "cars",
+      "file": "src/data/workspace.test.ts",
+      "sha256": "f684f148891d2343eeac9fd30e89ca758d6bbc5fc226aa439928bd86f2cb2f4c"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/geometry.ts",
+      "sha256": "8e60c41a7241d486e43666764ad3a6ebaff21a53a17cf9796172f8a69278d3a1"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/car.test.ts",
+      "sha256": "b41a7b5952a88df303984e4aebab1a37442ee517b01a55bbd7ea55b8e5418904"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/car.ts",
+      "sha256": "1b2299d81e2d53001405caf6afe073977a444a0580bfbd009a55c6df158a420e"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/studio.ts",
+      "sha256": "fab3c4e41e2cf9256947ac097831ad5a8a9932e9933cb50b2089e999b8ce4efb"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/calibration.ts",
+      "sha256": "24f8ec7c9ca043e3cddaa30d6a92da278d2bcfdb89419ccb25033aa6aa0cfaea"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/geometry.test.ts",
+      "sha256": "91b0276499ebe059e65f1bee505156307eef76378ef6cb0b281a15ecb8ff272e"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/aperture.test.ts",
+      "sha256": "b46ffd1b830cea039253d9811caf69815bf28607cdc9538a166d8f3b9e9b36a4"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/aperture.ts",
+      "sha256": "61e2df167139dae2a971af44ee294f2600c301c42ac2bcca03896b14b8f18d28"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/frontAssembly.test.ts",
+      "sha256": "3ffce9377a81db0e54d615c101835475a05770c871f009202629e33d412f6cfd"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/frontAssembly.ts",
+      "sha256": "c9b173655bcd228fc28b1937b7e287982676d69164cd4e4395ca02af7590bce1"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/bmwStudy.ts",
+      "sha256": "e5d09f4823f7a74409024551756ba8a6d9d2b7780d0bf8234f2edbebc5f6d219"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/bmwStudy.test.ts",
+      "sha256": "488484a115a552afdce39cd4cfdc623da24b23a17ab8aa40da037163584c4b12"
+    },
+    {
+      "project": "cars",
+      "file": "src/engine/bmwFrontCorner.ts",
+      "sha256": "c70cbf54d4887d65e8ac870261d3b4690b361afb6189a019875c67544807e582"
+    },
+    {
+      "project": "cars",
+      "file": "src/main.tsx",
+      "sha256": "1ecdc117a308416a96e1a69b57ab1682268eb27d4665f05b3214d8644f65b4a5"
+    },
+    {
+      "project": "cars",
+      "file": "src/App.tsx",
+      "sha256": "679997c645550a6c7395383705e1062c8042ef3b54c4bb4e73685ceeb8e46fe0"
+    },
+    {
+      "project": "cars",
+      "file": "src/style.css",
+      "sha256": "f3f364e44123d19c8bebaf449d7aa2be8f8f3bab0e1e9e6785006061d18e7310"
+    },
+    {
+      "project": "cars",
+      "file": "src/components/CalibrationWorkspace.tsx",
+      "sha256": "8538b6528ff615a1ad04d042b6df192da9fe61cae71fc05ab414ceaf5b8b198a"
+    },
+    {
+      "project": "cars",
+      "file": "src/components/BmwModelingWorkspace.tsx",
+      "sha256": "1fde3cf2d55856d13a093ec2607cfbd5fa3a262a2a2f886d27576947c3b7a631"
+    },
+    {
+      "project": "cars",
+      "file": "src/components/bmw-workspace.css",
+      "sha256": "7bd6cb50675ae2db1ab371a7308553e5bc3e2c0a3ed02a01e6d4cc03c3d53e2f"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/storage.test.ts",
+      "sha256": "b25e55c45e05b4f4fc95a2a1bdb46c622e4de3a537d04156083a75e559507c38"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/validateEvidence.ts",
+      "sha256": "7cf84b3b5e6b4a502542b6cb85293694efb0f0ce489232325445e40b7d970acd"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/sources.test.ts",
+      "sha256": "73a68b6e74335d566eb4796e03ac1e2aad32e7a0ab4cac47437b8d2754cafe1a"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/skeleton.json",
+      "sha256": "d88a701f0324c1b0aa093c40cb5c25e2c22d57b04cf64b456f303b3a84191190"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/landmarks.json",
+      "sha256": "46ca12ddd472587023581e83086508b62d5cadef5c9ab38088595b0337057fc4"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/cameras.json",
+      "sha256": "b5b3a3cd0330335921fb8ddf2a1933148b76e4d1d412e2875c673d3cf646a441"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/evidence/camera-alternatives.json",
+      "sha256": "37d65177811550907086b7261c8b7a66ab6f711d8b63608cc3aacc7f59779935"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/config.test.ts",
+      "sha256": "76dfea06efc735b7117310748a93e4a81f818954a0740575789d1ab6a22c1919"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/config.ts",
+      "sha256": "0e99c2145302dc96f772903084ec3fb0d8ef46ff5f02fc6e9d07389db298fa24"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/studyData.ts",
+      "sha256": "7c2bd5ce39a1e9879f8b11233a681e5dad6fe15fc86460e74bf916550c927b7e"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/studyData.test.ts",
+      "sha256": "77e751930aec728f4c703bab13c782fdbc34635f4fefd5e5558e320401f2847a"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/cameraReview.test.ts",
+      "sha256": "6eacc671fbd82c7d90c94285830bc9eb8c59a91b810de43fa90cb360c9656503"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/cameraReview.ts",
+      "sha256": "da34f1b825111c34251058d4fcdb348cbfabe7ccb38f7106193ec8df18b31d9c"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/patches/front-corner.json",
+      "sha256": "72f378b528a58e26c6063e470c2b94b192700a1aa936db3695b6195561bd9b65"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/patches/front-corner-refinement.json",
+      "sha256": "e323204be8d0c12eb30d38a1f4c4d09027a12d39e50ad456ff92252dd1b707ba"
+    },
+    {
+      "project": "cars",
+      "file": "src/vehicles/bmw-g20/frontCorner.ts",
+      "sha256": "417aca91977388a293dcd9092e81270b7af6d44d0d25a9260ddf9a48edc684d1"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/types.ts",
+      "sha256": "f8125dc376da0701e566bddfd2749db674a2a7f8dd67d5da6988c10764430144"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/types.test.ts",
+      "sha256": "b73c9c23f744125d2a1bc8b6fca7ad2c760b2ca4cadb2da2bfb5b0184895c931"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/projection.ts",
+      "sha256": "3e3ea81a89b165fa1159ee33770cb9917f106dc32431e5964440455cd1f86e3c"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/projection.test.ts",
+      "sha256": "9816a597970542faaf22323b495a4b53caaa6fcadb3c34f8bc6f579a34871378"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/bezier.test.ts",
+      "sha256": "6a0a7d43ce080cbc326e491a6f696cf86b9b32af3d4b723e2680d4244c28e765"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/patchGraph.test.ts",
+      "sha256": "de89225d1d1932b0c2e75c873458db390bcd1bf5b453626cdc279f8ed70e1491"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/bezier.ts",
+      "sha256": "7f9c356529d2c8ed40cc16f156094288522675e6df9d3b6a8e7e05519e9a019c"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/patchGraph.ts",
+      "sha256": "4352cabdcf7337cbbe340ba9a63fee7264a33cde79c838250993cca29f9a2d7a"
+    },
+    {
+      "project": "cars",
+      "file": "src/modeling/tessellation.ts",
+      "sha256": "ca6bc31ef6e96120e1cad7c4409aeb9838b411d1c6e86a8fdcbd69ade07e5633"
+    },
+    {
+      "project": "cars",
+      "file": "src/validation/local-config.test.ts",
+      "sha256": "7f19ffab8439d34daf9d59c85ef2fc13cb29c8eff7225d858bc26fdd0f8a195c"
+    },
+    {
+      "project": "cars",
+      "file": "src/validation/bmw-g20/front-corner.test.ts",
+      "sha256": "be8a63ec911a3e7b5e9cf311629eb6c01a8f5e2c25550e7d7c27a05a9f3ef017"
+    },
+    {
+      "project": "cars",
+      "file": "src/validation/bmw-g20/front-corner-refinement.test.ts",
+      "sha256": "fd7e6a4b44ce3a59230785b5a896c521e860ae685084f73af635b7b90a3ad508"
+    },
+    {
+      "project": "cars",
+      "file": "package-lock.json",
+      "sha256": "f54a5418616d0d4f22e99e18e1a17d8e1ffc01f20c3c5ae06e6e7c52af301250"
+    },
+    {
+      "project": "cars",
+      "file": "dist/favicon.svg",
+      "sha256": "a954b369086f03d0e1bb13481c3dcafe21ac774d36d94ca7429ed8cc4d280f22"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/audi-a4-dimensions.pdf",
+      "sha256": "4f733bff3c350f1a86aeb9f3e38a617d24cce9bc2275d0b4c9f73b70d451a429"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/audi-a4-dimensions.png",
+      "sha256": "e82402dbfcd99b1932bc64feec9b471ea5f5a52704c2c4c5056be34c1ced073d"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2019/A195684_web_1440.jpg",
+      "sha256": "0491897078532ad358b773bd56e701cc9458795cd80338e8bc5115c59a25cc0b"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226712_web_1440.jpeg",
+      "sha256": "de040095045dea28b52c690e24cb47311ff7aef8a83e1076b97a77e66b738f03"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226704_web_1440.jpeg",
+      "sha256": "8dac47ff3c4b1fe4631d657d6a02512dcf5d9799e2f10e63f366c53a412358c7"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226705_web_1440.jpeg",
+      "sha256": "28ba08e4a94be58a73d2bcab003f6e5f036d735fcaa67c04d1cf46eac7c56b26"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226706_web_1440.jpeg",
+      "sha256": "844f0a55261f1aa1430c3021ddbe56fb5bb087ad4d3490928fb9fedcb4ee60d3"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226709_web_1440.jpeg",
+      "sha256": "0012005849a66aa766dd7fa2eb2a428a26d3bcfdd373c323ce60396102ab5d86"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/2022/A226710_web_1440.jpeg",
+      "sha256": "b4677e5364242797c9513ac574741959615a0bb4db3a8f92d6ab94c22e1aaa3a"
+    },
+    {
+      "project": "cars",
+      "file": "dist/references/manifest.json",
+      "sha256": "5eb75bc8995f288b7aa2ec7f75233f6741a68cba893f05c8ec1c231e984a3b97"
+    },
+    {
+      "project": "cars",
+      "file": "dist/assets/index-leuSju6l.js",
+      "sha256": "d5e39095d69fd97d3b4e67694015ab36aa73227d9ef655e31a31f377cc4d1e32"
+    },
+    {
+      "project": "cars",
+      "file": "dist/assets/BmwModelingWorkspace-BhmJ2ZMX.js",
+      "sha256": "e6f7b0cc181f0c802f28f9815722983ac7a7c02faaa560d7247e01285ceec7cf"
+    },
+    {
+      "project": "cars",
+      "file": "dist/assets/GLTFExporter-Cw0f2JUB.js",
+      "sha256": "9f7bb2410042a892b5a76e3ba36ea955a7e0c449e00abb4303b27d66cea72293"
+    },
+    {
+      "project": "cars",
+      "file": "dist/assets/BmwModelingWorkspace-DyQF5pmc.css",
+      "sha256": "fa3e135dd3fa20a8ffb8abdd34c2491f7797c33818c830388a256cdfb3169ce4"
+    },
+    {
+      "project": "cars",
+      "file": "dist/assets/index-DMzS7fur.css",
+      "sha256": "df30ca5aca66cfb50b6d9250ed8c3e16217ef1f166485f1169d6ca26aef7493a"
+    },
+    {
+      "project": "cars",
+      "file": "dist/index.html",
+      "sha256": "5f5bc2eca20308b6c55e75daab79342181bae4be773d040d7a96d51ca8d2f4db"
+    },
+    {
+      "project": "cars",
+      "file": "README.md",
+      "sha256": "844ec0690bbfb455ce286d674bcef69df91298d8936f91ae2bbc00ee74ac2613"
+    },
+    {
+      "project": "aotai",
+      "file": "package.json",
+      "sha256": "6ded443ef0406123324d90b2fe726339cb76ecc56540919139e0d428309cd594"
+    },
+    {
+      "project": "aotai",
+      "file": "package-lock.json",
+      "sha256": "b82f972a10efea81c864d35387787fa71fc52cdc8a271170cf08d0b7e79accf4"
+    },
+    {
+      "project": "aotai",
+      "file": "public/mark.svg",
+      "sha256": "33d01bc8ca3fc74d3574108703da5d24dca3c569d847ad56e2b8976a3eea293a"
+    },
+    {
+      "project": "aotai",
+      "file": "public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "21af3f8d97ae8bc786a5bd4232d795531508b7d83c8193496f76742b9b2d271f"
+    },
+    {
+      "project": "aotai",
+      "file": "public/terrain-sources.txt",
+      "sha256": "07902a920c7e1c2a8e374beb57e091d9a0f6fb4e77ae9823ff3516905cd0891b"
+    },
+    {
+      "project": "aotai",
+      "file": "public/journey/relief.png",
+      "sha256": "61ff697af80c80a8de857a50f3ef14def843e4d70e65ba7ccd0af4cf0a04a20f"
+    },
+    {
+      "project": "aotai",
+      "file": "public/journey/terrain.json",
+      "sha256": "d43f26da39491841fb6ff164046a6d1efc7ee3ac727f900bc969bd9086811a4c"
+    },
+    {
+      "project": "aotai",
+      "file": "public/journey/osm-lake-point.json",
+      "sha256": "e45cb5e843771578898bf926da15bfb015fd8ed37520f4c45883c7040464d0e1"
+    },
+    {
+      "project": "aotai",
+      "file": "public/journey/sources.txt",
+      "sha256": "003cbf03201c3495d615a4466220f7f12ee4f80f79dc5b88091c95c60a5477c6"
+    },
+    {
+      "project": "aotai",
+      "file": "src/core/settings.test.ts",
+      "sha256": "a5c17f805aec7c9f69c8622a3e3736b3adc292d3e1dd65c8e9fa8129f60940f3"
+    },
+    {
+      "project": "aotai",
+      "file": "src/core/settings.ts",
+      "sha256": "0e82aae9645ef3a750b4196735a44c6f91e26a834eff3e0e252dd435652cafa2"
+    },
+    {
+      "project": "aotai",
+      "file": "src/core/input.ts",
+      "sha256": "b51a82cef5b01ac70370a5d28749a435402cbd43c0a794a37b2ed59c272b5e46"
+    },
+    {
+      "project": "aotai",
+      "file": "src/core/input.test.ts",
+      "sha256": "fb6873588ac31f40ff75f001edf1352722227fa30c40651df4f7c8f73feee56c"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/terrain.test.ts",
+      "sha256": "2c471ec98ee43217275f1838ae4a9de6265d1b0be679b1ad6b624f0051b64e74"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/simulation.test.ts",
+      "sha256": "ed2e05bbd67bdd08acd62db16e99251961add03c22f086fd53a873377511fb42"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/terrain.ts",
+      "sha256": "dd7c90f34507e39d6c402ab863b0317d111b56da6078c1535289166597d3094a"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/simulation.ts",
+      "sha256": "68f77be4a09147c7a49affadbae5d316ad1cca4729a55849daac5aedea4dcee1"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/rockShape.ts",
+      "sha256": "a6a01b5387e8b82ee8b84589a761c59495679ba8e23d2bbbd6aae786c34d257e"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/route.test.ts",
+      "sha256": "1ab16f13041335351f4522bf8423db13405758b058c789781a979918d882bee6"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/tour.test.ts",
+      "sha256": "8a440a249f3d5d0aee40fee3bdc0a878a257432f95b7792775888018a15bdc87"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/route.ts",
+      "sha256": "8ad5e7549dad60eb9bb32c099e95197b2725bb2a99ff83c15b3a900e4cf11b70"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/tour.ts",
+      "sha256": "6cedc1639aec710a81952617b5f8778e771aadf91f929b804797fecf1d637ba6"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/elevation.ts",
+      "sha256": "ccdc7e2dda2cdd10e5a0f8521e7a77c566c7cdba823f160c4ee7123f54a143e4"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/elevation.test.ts",
+      "sha256": "a0852b9e28299b130d7b21cbb41082f32e67fa689022bfe93e742f617bbf1bdb"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/habitat.test.ts",
+      "sha256": "ee979a1a6568ec386c8d72337e55aa33968f498ceeaf1ee7d3ec801fb6f6e59e"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/habitat.ts",
+      "sha256": "68ff2d829ed1b3dca949fb5596e72717c45f4ce43795f110fd30e77f9b9f7c41"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/vegetation.ts",
+      "sha256": "788c73364765a8a2151cee57f82e91475ad1f37a81b6cfcd9867f844f9f47b19"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/vegetation.test.ts",
+      "sha256": "ff53042ba184d4f9de99567b6f1bd74877c6a170ce11f3bb846a20404b9a6d77"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/journey.test.ts",
+      "sha256": "716f8c1a90e645f4085a493a850629e0b12823afbcfef52b613046357e0179f8"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/journey.ts",
+      "sha256": "e595b74a21d46c8cae94adedab810fa1087635122bfe776fe867852ad7abbd92"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/journey-scenery.test.ts",
+      "sha256": "ab3b06dffa3b534a0275fd12cf25b16b099e73fa7391a220507d6705e3fa3ffe"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/weather.test.ts",
+      "sha256": "d28dd3c298523a97e2fc95c9b06a47b9ee177c6c00b3651975b84db8d016a915"
+    },
+    {
+      "project": "aotai",
+      "file": "src/world/weather.ts",
+      "sha256": "974dad6624927303ce49396acd06f45d936c8010ffbe2206b91835b4ea4ae079"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/Landscape.tsx",
+      "sha256": "b2153fa2d8e2edd4b5fe68601131b974be5b6bed72c6a69f618de18c550e0f02"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/Experience.tsx",
+      "sha256": "6cce1b1e1a1510fb592e7d7a5e1471bcdb1954a3ea75b1ab6517c52456c43d86"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/surface.ts",
+      "sha256": "269fb56a1f7d9aec094f6157b152ac527fbeeb1a03b676e0d9fdac142fe778ca"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/Vegetation.tsx",
+      "sha256": "d8611f414a107596ce37028dfb44fcf5842165c590c0da127d0f59e817cc8815"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/weatherMaterial.test.ts",
+      "sha256": "b11c49bec6a98062b06064ba12699612f741b277cc995d0aa057a86ce8c6aee1"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/weatherMaterial.ts",
+      "sha256": "eeeafdef24cebe5ab80b49b076590d12eaa780ed91ae907fbb76ebd2e1085667"
+    },
+    {
+      "project": "aotai",
+      "file": "src/scene/Weather.tsx",
+      "sha256": "9b2ce9d7165454d307b8dded2f32d5bc23a07b52bfbbd6726b484d187231771b"
+    },
+    {
+      "project": "aotai",
+      "file": "src/main.tsx",
+      "sha256": "a5a212fd63c2613baa3558ee568b7cb3d91a1ee6f0ad1cdaab6fcf32c9272b16"
+    },
+    {
+      "project": "aotai",
+      "file": "src/App.tsx",
+      "sha256": "6caf255c0fc449d1ee3cdf732d6f12955cc4437853df27081345e5ef6982a2f1"
+    },
+    {
+      "project": "aotai",
+      "file": "src/styles.css",
+      "sha256": "3a76e101c18ee150bd24b2a0856e9d29896a55a41cff3ac1a613050fe4dba701"
+    },
+    {
+      "project": "aotai",
+      "file": "src/components/MiniMap.tsx",
+      "sha256": "b87865f7dc6ea68aa02d3ad915489c8e2132a2a8aa40a606ecd4c5798eb179be"
+    },
+    {
+      "project": "aotai",
+      "file": "src/components/WeatherControl.tsx",
+      "sha256": "9b4474724f8ad0c3828bb7aa957c7b96c552dd573eb2290edd9eee1f7e7a1a6c"
+    },
+    {
+      "project": "aotai",
+      "file": "src/data/taibai-dem.json",
+      "sha256": "ed6da50257a70526342b5d2cbb145bc05f29c47797dba8ed917dbb72e5bae663"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/model.test.ts",
+      "sha256": "6eb73cd9d872d7af3d6c3d688ec154694b3e38cf3083843dffc106d64baff2fd"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/landmarks.ts",
+      "sha256": "32d852191a94033c66082f0a48c4feaa92c91aa3e07c69e9d5fcb56d358aac76"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/model.ts",
+      "sha256": "c9dd6e6a94a0f36de8ad93b7ae215c4e62bd8fbea77d0801ce059aae58260d6f"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/JourneyMap.tsx",
+      "sha256": "0130ea7d8c287dee9dd11bc212f8563035f9b5ec922a66c0b7cd3511777a3cff"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/useJourney.ts",
+      "sha256": "bbf13013f3e82595623f14f1c31d43f41e6a71ed6097f4cdd19ef5d1c62068af"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/terrain.ts",
+      "sha256": "abd9e57c8ab0956d29a78056a30b0d06191eb1f29798ce8b125776e9802b349f"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/terrain.test.ts",
+      "sha256": "fa8945ef2fd13a017e1d39a65c1c1b4f4aa68cfcc79eac25e3a19e2c3fab74eb"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/TerrainView.tsx",
+      "sha256": "c28c6611153f2a2487e8831802d41df470fec56dbd2b1438ee3052de341245eb"
+    },
+    {
+      "project": "aotai",
+      "file": "src/journey/journey.css",
+      "sha256": "4db5b8621830c617ebfd2916bd1652077445e47e4a75f472ed413b849ce30e61"
+    },
+    {
+      "project": "aotai",
+      "file": "src/JourneyApp.tsx",
+      "sha256": "5996363e6ecd76edcde8e0dd61c41aa7aa83d260bc00dcb476b0831793538ebf"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/mark.svg",
+      "sha256": "33d01bc8ca3fc74d3574108703da5d24dca3c569d847ad56e2b8976a3eea293a"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/THIRD_PARTY_NOTICES.txt",
+      "sha256": "21af3f8d97ae8bc786a5bd4232d795531508b7d83c8193496f76742b9b2d271f"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/terrain-sources.txt",
+      "sha256": "07902a920c7e1c2a8e374beb57e091d9a0f6fb4e77ae9823ff3516905cd0891b"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/journey/relief.png",
+      "sha256": "61ff697af80c80a8de857a50f3ef14def843e4d70e65ba7ccd0af4cf0a04a20f"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/journey/terrain.json",
+      "sha256": "d43f26da39491841fb6ff164046a6d1efc7ee3ac727f900bc969bd9086811a4c"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/journey/osm-lake-point.json",
+      "sha256": "e45cb5e843771578898bf926da15bfb015fd8ed37520f4c45883c7040464d0e1"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/journey/sources.txt",
+      "sha256": "003cbf03201c3495d615a4466220f7f12ee4f80f79dc5b88091c95c60a5477c6"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/index-BCoGjDTU.js",
+      "sha256": "075267adeaa4582ccfddc90713f3d6ccb0878367967c5ac805fdd241d5552191"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/App-CcqfGbB3.js",
+      "sha256": "e5f8c631761e69224408f522bb339627f522bcf5ae5a7840e621b75d675ba4da"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/Experience-DiAK0Q3E.js",
+      "sha256": "d690b4bbbf1e3748792a1041cd10e794411b66ee611ca4e4fe7cdafeb6cf383b"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/TerrainView-afYwL6hc.js",
+      "sha256": "c8db9a7f0b683dfb8d61248d0a346cd7c5dc336a7244526b9c3955806de2d61b"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/graphics-DlD1gnlt.js",
+      "sha256": "126c1f952ae4ec02844c752985822a7645e5970d6d947296fed682dfdc81ed84"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/physics-BR_-CEU_.js",
+      "sha256": "a98b2b9d569daee4c17d3a51bbce1d55f41e6242395887291860dd10cc439c5e"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/react-three-fiber.esm-BFN3vE_3.js",
+      "sha256": "bf9c0ef2e88bf0ab522ad7dea3597e50c439c57315ad918477aebfc8fa1b2c65"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/rolldown-runtime-hePW80VL.js",
+      "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/assets/index-zK7t1uY6.css",
+      "sha256": "f79ab3e293639b7f57aff439c97483c5bf4f5b611e337acab8b6d6827f645399"
+    },
+    {
+      "project": "aotai",
+      "file": "dist/index.html",
+      "sha256": "e4c8c87d1da2167989c1cb2e685f246fb5fd5d358bdec8ce1d1785ccaaa755da"
+    },
+    {
+      "project": "aotai",
+      "file": "README.md",
+      "sha256": "c638ce8e11e8bfd8f8692feb0f62c3a091d4f44c2edb5422de3d69fb94466bbe"
+    }
+  ]
+}

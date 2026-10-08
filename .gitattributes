@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Downloaded runtime assets must retain their manifest-verified bytes.
+/public/assets/town/** -text
+
+# Two trailing spaces are intentional Markdown hard line breaks.
+*.md whitespace=-blank-at-eol

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.preview/
+*.partial
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local runtime evidence and unreviewed source archives
+*.log
+docs/reviews/**/runtime/
+asset-sources/inbox/*
+!asset-sources/inbox/README.md
